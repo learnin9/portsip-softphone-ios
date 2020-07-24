@@ -1,0 +1,166 @@
+/*
+ Localizable.strings
+ PortGo
+ 
+ Created by MrLee on 14-9-2.
+ Copyright (c) 2014 PortSIP Solutions, Inc. All rights reserved.
+ */
+/* Localized versions of Info.plist keys */
+
+
+/* Login view */
+"Accounts" = "Аккаунты";
+"UserName" = "SIP логин";
+"Password" = "Пароль";
+"SIP Server" = "SIP Сервер";
+"Server Port" = "Порт Сервера";
+"Names" = "Имена";
+"Transport" = "Транспорт";
+"Remember me" = "Запомнить";
+"Auto Login" = "Auto Login";
+"Show Advanced Options" = "Расширенные настройки";
+"Hide Advanced Options" = "Расширенные настройки";
+"Enable Logging" = "Включить логирование";
+"About" = "О программе";
+"Display Name" = "Отображаемое имя";
+"Auth Name" = "Пользователь для авторизации";
+"User Domain" = "Домен";
+"Signaling Transport" = "Транспорт";
+"Enable STUN" = "Включить STUN";
+"Server" = "Сервер";
+"Port" = "Порт";
+"Version" = "Версия";
+"Signing in" = "Производится вход";
+"NetWork error" = "Ошибка сети";
+"Initial SDK error" = "Ошибка инициализации SDK";
+"Account info error" = "Ошибка регистрационных данных";
+"Unable to login" = "Невозможно войти";
+"Forgot Password" = "Забыли пароль";
+
+/*Contacts View*/
+"Contacts" = "Контакты";
+"Favorites" = "Favorites";
+
+/*Recents View*/
+"Recents" = "Недавние";
+"All Calls" = "Все вызовы";
+"Missed Calls" = "Пропущенные";
+"Audio" = "Голосовой";
+"Video"="Видео";
+"Unknown" = "Unknown";
+"Clear All Entries" = "Очистить Все";
+"Clear Missed Entries" = "Очистить Все пропущенные";
+"Cancel" = "Отменить";
+"Create New Contact" = "Создать контакт";
+"Add to Existing Contact" = "Добавить в имеющийся";
+"Send a text message" = "Отправить текстовое сообщение";
+"Make Audio call" = "Сделать голосовой вызов";
+"Make Video call" = "Сделать видео вызов";
+
+/* Numpad view */
+"Numpad" = "Клавиши";
+"HangUp Call" = "Завершить звонок";
+"Trying" = "Соединение";
+"Ringing" = "Звонит";
+"Remote hold" = "Удержание";
+"Remote unHold" = "Снять Удержание";
+"Tap to Return Call" = "Касание вернет Вас к вызову";
+"offline" = "оффлайн";
+"Remote Hangup" = "Вызов закончен";
+"Call ending" = "Завершение вызова";
+"Transfer" = "Перевести звонок";
+"Conference" = "Конференция";
+
+/*Notification Center*/
+"Call from" = "Входящий вызов";
+"Video call from" = "Входящий видео вызов";
+"Call closed" = "Вызов завершен";
+"Missed call" = "Пропущенный звонок";
+
+
+/*Messages View*/
+"Messages" = "Сообщения";
+"Send" = "Отпр.";
+" Copy " = " Копия ";
+" Delete" = "Удалить";
+
+/*Webpage View*/
+"Home" = "домой";
+
+/*Settings View*/
+"Settings" = "Настройки";
+"Account" = "Аккаунт";
+"Preferences" = "Настройки";
+"Codecs" = "Кодеки";
+"Premium Features" = "Премиум возможности";
+
+
+/*Accounts View*/
+"User Name" = "Имя пользователя";
+"Sign Out" = "Выйти";
+
+
+/*Preferences View*/
+"Allow VoIP Calls" = "Разрешить SIP звонки";
+"Force Background" = "Использовать фоновый режим";
+"Integrated calling" = "Встроенный звонок";
+"RTP Port Start" = "Минимальный RTP Порт";
+"Acoustic Echo Cancellation" = "Эхоподавление";
+"Voice Activity Detection" = "Обнаружение голосовой активности";
+"Noise Reduction" = "Подавление шума";
+"Comfort Noise Generator" = "Генератор комфортного шума";
+"Automatic Gain Control" = "Автоматическая регулировка усиления";
+"Video Resolution" = "Разрешение видео";
+"Video Frame Rate" = "Кадровая частота";
+"Video Bit Rate" = "Видео Битрейт";
+"Video NACK feature(RFC4585)" = "Видео NACK(RFC4585)";
+"Forward Incoming Calls" = "Переадресация входящих вызовов";
+"Send DTMF Using" = "Отправить DTMF используя";
+"Play DTMF Tones Back To Me" = "Проигрывать DTMF обратно";
+"Number:" = "Номер:";
+
+"MOBILE DATA NETWORK" = "Сотовые данные";
+"Enable to allow application to use your mobile data plan when WIFI is not available." = "Включите для приема вызовов используя сотовые данные, когда WIFI не доступен.";
+
+"CALLS" = "ЗВОНКИ";
+
+"Receive incoming calls on your lock screen and make calls from your device's contact list." = "Принимать входящие звонки на экране блокировкии совершать звонки из списка контактов вашего устройства.";
+
+"BACKGROUND" = "Фоновый режим";
+
+"Enable to support incoming calls while in background (only be used with UDP server or malconfigured TCP server). Enabling this option will significantly decrease battery life!" = "Включить поддержку входящих звонков в фоновом режиме (возможно использование только с UDP сервером или TCP сервером). Включение данной опции значительно снижает заряд батареи!";
+
+
+
+"AUDIO OPTIONS" = "Свойства Аудио";
+"VIDEO OPTIONS" = "Свойства Видео";
+"CLIENT-SIDE CALL FORWARDING" = "Переадресация вызовов на стороне программы";
+"DTMF TYPE" = "Тип DTMF";
+"Sign In" = "Войти";
+"SRTP" = "SRTP";
+"None" = "Нет";
+"Prefer" = "Предпочтительно";
+"Force" = "Обязательно";
+
+
+/*Codecs View*/
+"Audio Codecs" = "Аудио Кодеки";
+"Video Codecs" = "Видео Кодеки";
+
+"OK" = "OK";
+
+
+/*Dial View*/
+"BlueTooth" = "BlueTooth";
+"iPhone" = "iPhone";
+"Speaker" = "Speaker";
+
+
+
+
+
+
+
+
+
+

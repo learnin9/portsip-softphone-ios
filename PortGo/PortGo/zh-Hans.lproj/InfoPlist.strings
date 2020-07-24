@@ -1,0 +1,8 @@
+
+"NSCameraUsageDescription"  = "PortSIP需要访问您的相机来产生和接收VoIP视频呼叫。";
+"NSContactsUsageDescription" ="PortSIP想用你的联系人来拨打VoIP电话给你的朋友！我们不会将您的联系人存储在服务器上。";
+
+"NSMicrophoneUsageDescription" = "PortSIP需要访问麦克风来拨打和接收VoIP电话。";
+
+"NSPhotoLibraryUsageDescription" = "PortSIP需要访问您的照片库来制作和接收VoIP视频呼叫。";
+"NSBluetoothAlwaysUsageDescription" = "PortSIP需要访问蓝牙来拨打和接收VoIP电话。";

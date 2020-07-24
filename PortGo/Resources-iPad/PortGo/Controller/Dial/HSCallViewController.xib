@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HSCallViewController">
+            <connections>
+                <outlet property="audioButton" destination="tMR-Qs-gFh" id="xuy-hd-xJU"/>
+                <outlet property="callView" destination="6s2-Lg-8j2" id="ykW-Zd-ccO"/>
+                <outlet property="callViewBottom" destination="VWu-CW-R0Z" id="f0K-zJ-Czh"/>
+                <outlet property="callingStateLabel" destination="neK-x2-s4p" id="KRM-lL-11n"/>
+                <outlet property="cameraOptionArrow" destination="igT-Fq-oPI" id="C9y-Cs-HpM"/>
+                <outlet property="cameraOptionImageView" destination="A9j-SW-TSX" id="fqf-T9-AA5"/>
+                <outlet property="cameraOptionView" destination="icb-AL-tTd" id="b8c-gJ-zhB"/>
+                <outlet property="costRate" destination="f5g-LK-tW2" id="PXG-BU-4PX"/>
+                <outlet property="dtmfArrow" destination="gi4-bX-U5v" id="Xim-jv-fvk"/>
+                <outlet property="dtmfBackgroundView" destination="JVc-R9-0N0" id="vyu-2k-76e"/>
+                <outlet property="dtmfView" destination="fhX-N0-V6H" id="ege-oi-SXJ"/>
+                <outlet property="hungupButton" destination="UfG-63-p2k" id="rgp-DH-kNY"/>
+                <outlet property="hungupButton2" destination="BdY-Ub-JfA" id="Zrc-vM-zwx"/>
+                <outlet property="lineOneButton" destination="Y9K-54-hzK" id="Tqc-ps-MkW"/>
+                <outlet property="lineOneDisplayName" destination="BFv-eZ-5Oz" id="Q94-5M-HUv"/>
+                <outlet property="lineOneLabel" destination="1xm-fb-r1W" id="s0s-bD-lJM"/>
+                <outlet property="lineOneView" destination="mTT-V4-iDQ" id="mrM-2H-v8k"/>
+                <outlet property="lineTwoButton" destination="FuH-g6-5pe" id="zIQ-Mn-NcM"/>
+                <outlet property="lineTwoDisplayName" destination="pgX-Hf-7rx" id="G7X-bT-9xr"/>
+                <outlet property="lineTwoLabel" destination="hbf-MB-Ksc" id="ekt-oc-YI5"/>
+                <outlet property="lineTwoView" destination="054-Cq-ce0" id="e19-qP-EXL"/>
+                <outlet property="localVideoView" destination="jBd-Yf-SOg" id="BdG-E0-vg4"/>
+                <outlet property="logoImageView" destination="huo-Bc-eE6" id="kLc-xV-oHN"/>
+                <outlet property="nameLabel" destination="2hE-Q9-Zew" id="Vpd-an-Rek"/>
+                <outlet property="pageIndicator" destination="Qjb-It-T1T" id="vAT-kr-GvY"/>
+                <outlet property="remoteBgImageView" destination="U2h-EM-1ce" id="tTC-FP-xwU"/>
+                <outlet property="remoteLabel" destination="vgg-8w-zcv" id="hKB-GN-9va"/>
+                <outlet property="remoteVideoView" destination="S1L-4h-V2D" id="mGq-CY-447"/>
+                <outlet property="scrollAddButton" destination="zmJ-wY-0mf" id="vw9-yu-zqk"/>
+                <outlet property="scrollAudioButton" destination="jOY-M4-nGU" id="NSK-UQ-lHC"/>
+                <outlet property="scrollDtmfButton" destination="Sc1-Sc-w7Z" id="SEf-9D-wIh"/>
+                <outlet property="scrollHoldButton" destination="YM2-bX-Uy0" id="7D3-4V-NkT"/>
+                <outlet property="scrollLoudlyButton" destination="f11-oP-xDz" id="9HO-gX-iN2"/>
+                <outlet property="scrollMicoButton" destination="8zL-3U-ZAH" id="9xe-pM-AsZ"/>
+                <outlet property="scrollRecordButton" destination="ZPl-eH-hcl" id="OSf-nh-PRD"/>
+                <outlet property="scrollVideoButton" destination="xO3-cb-Y6e" id="lXL-ql-VWa"/>
+                <outlet property="scrollView" destination="xR4-ly-Vdr" id="p4a-K5-aJh"/>
+                <outlet property="scrollViewPageOne" destination="SWB-ys-JyJ" id="XYB-iI-TTU"/>
+                <outlet property="scrollViewPageTwo" destination="p6w-Oh-URc" id="cf6-n1-Wzy"/>
+                <outlet property="stateLabel" destination="hst-pP-mv1" id="GX8-Qt-iG8"/>
+                <outlet property="timeLongLabel" destination="Qob-uj-uXs" id="chc-0R-aF6"/>
+                <outlet property="videoButton" destination="nFC-Px-QLB" id="h7Y-et-1Us"/>
+                <outlet property="view" destination="oZb-hd-Hi3" id="7Xv-p1-i8b"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="oZb-hd-Hi3">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_background.png" id="8Sq-YH-mL9">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon.png" id="huo-Bc-eE6">
+                    <rect key="frame" x="96" y="165" width="128" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" misplaced="YES" id="YiW-O3-9ta" userLabel="View audio video">
+                    <rect key="frame" x="0.0" y="876" width="336" height="42"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UfG-63-p2k" userLabel="Button hangup">
+                            <rect key="frame" x="33" y="1" width="76" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="call_hang_label.png" backgroundImage="call_hangup_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="call_hang_label.png" backgroundImage="call_hangup_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="hangupCall:" destination="-1" eventType="touchUpInside" id="yWB-Of-PmA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tMR-Qs-gFh" userLabel="Button audio">
+                            <rect key="frame" x="139" y="1" width="76" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="call_audio_label.png" backgroundImage="call_button_answer_green_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="call_audio_label.png"/>
+                            <connections>
+                                <action selector="incomingAudioCall:" destination="-1" eventType="touchUpInside" id="i2i-v0-IgK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nFC-Px-QLB" userLabel="Button video">
+                            <rect key="frame" x="238" y="1" width="76" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="call_video_label.png" backgroundImage="call_button_answer_green_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="call_video_label.png"/>
+                            <connections>
+                                <action selector="incomingVideoCall:" destination="-1" eventType="touchUpInside" id="pWd-ft-LgE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vgg-8w-zcv" userLabel="remotePart">
+                    <rect key="frame" x="0.0" y="55" width="320" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="neK-x2-s4p">
+                    <rect key="frame" x="0.0" y="84" width="320" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f5g-LK-tW2">
+                    <rect key="frame" x="0.0" y="113" width="320" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="203" y="365"/>
+        </view>
+        <view contentMode="scaleToFill" id="6s2-Lg-8j2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call_bg.png" id="1QO-Av-wTT">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="zFg-5g-Ixv">
+                    <rect key="frame" x="0.0" y="70" width="320" height="87"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="054-Cq-ce0">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pgX-Hf-7rx">
+                                    <rect key="frame" x="10" y="4" width="100" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hbf-MB-Ksc">
+                                    <rect key="frame" x="110" y="4" width="210" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FuH-g6-5pe">
+                                    <rect key="frame" x="10" y="0.0" width="310" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <state key="normal">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="switchLineButtonClick:" destination="-1" eventType="touchUpInside" id="Vc3-KT-xlo"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2hE-Q9-Zew">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="1102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qob-uj-uXs">
+                            <rect key="frame" x="0.0" y="22" width="320" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hst-pP-mv1">
+                            <rect key="frame" x="0.0" y="45" width="320" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y0g-EB-97C">
+                            <rect key="frame" x="0.0" y="66" width="320" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view tag="1103" contentMode="scaleToFill" id="S1L-4h-V2D" customClass="PortSIPVideoRenderView">
+                    <rect key="frame" x="0.0" y="160" width="320" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon.png" id="U2h-EM-1ce">
+                            <rect key="frame" x="96" y="5" width="128" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                </view>
+                <view contentMode="scaleToFill" id="VWu-CW-R0Z">
+                    <rect key="frame" x="0.0" y="400" width="320" height="168"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1104" contentMode="scaleToFill" id="xR4-ly-Vdr">
+                            <rect key="frame" x="0.0" y="10" width="320" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </scrollView>
+                        <pageControl opaque="NO" tag="1105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" id="Qjb-It-T1T">
+                            <rect key="frame" x="140" y="50" width="40" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="pageIndicatorTintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </pageControl>
+                        <button opaque="NO" tag="1106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BdY-Ub-JfA">
+                            <rect key="frame" x="100" y="100" width="120" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="call_hang_label.png" backgroundImage="call_hangup_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="call_hang_label.png" backgroundImage="call_hangup_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="hangupCall:" destination="-1" eventType="touchUpInside" id="Kba-3n-Tal"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="mTT-V4-iDQ">
+                    <rect key="frame" x="0.0" y="35" width="320" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BFv-eZ-5Oz">
+                            <rect key="frame" x="10" y="4" width="100" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1xm-fb-r1W">
+                            <rect key="frame" x="110" y="4" width="210" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y9K-54-hzK">
+                            <rect key="frame" x="10" y="0.0" width="310" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="switchLineButtonClick:" destination="-1" eventType="touchUpInside" id="ajJ-e0-QfI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="594" y="365"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.80000000000000016" contentMode="scaleToFill" id="fhX-N0-V6H">
+            <rect key="frame" x="0.0" y="0.0" width="306" height="231"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="JVc-R9-0N0">
+                    <rect key="frame" x="0.0" y="0.0" width="306" height="216"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="igA-u8-8pB">
+                            <rect key="frame" x="0.0" y="0.0" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_1.png" backgroundImage="dtmf_1_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_1.png" backgroundImage="dtmf_1_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="Jig-bB-ZeK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vb2-dT-0F4">
+                            <rect key="frame" x="102" y="0.0" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_2.png" backgroundImage="dtmf_2_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_2.png" backgroundImage="dtmf_2_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="ZP4-LZ-4ny"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SgH-iR-hW8">
+                            <rect key="frame" x="204" y="0.0" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_3.png" backgroundImage="dtmf_3_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_3.png" backgroundImage="dtmf_3_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="WQX-vy-cRC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="INs-nJ-AN1">
+                            <rect key="frame" x="0.0" y="54" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_4.png" backgroundImage="dtmf_4_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_4.png" backgroundImage="dtmf_4_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="rIJ-DG-XRg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ljR-wu-hbc">
+                            <rect key="frame" x="102" y="54" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_5.png" backgroundImage="dtmf_5_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_5.png" backgroundImage="dtmf_5_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="iAt-X7-hTE"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gXQ-WN-V0U">
+                            <rect key="frame" x="204" y="54" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_6.png" backgroundImage="dtmf_6_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_6.png" backgroundImage="dtmf_6_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="mhq-7y-ohf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="btU-rD-ZUe">
+                            <rect key="frame" x="0.0" y="108" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_7.png" backgroundImage="dtmf_4_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_7.png" backgroundImage="dtmf_4_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="2wl-Ly-9ol"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2CY-Ui-rR5">
+                            <rect key="frame" x="102" y="108" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_8.png" backgroundImage="dtmf_5_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_8.png" backgroundImage="dtmf_5_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="6Y0-1a-t0P"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BdA-Ia-cdx">
+                            <rect key="frame" x="204" y="108" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_9.png" backgroundImage="dtmf_6_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_9.png" backgroundImage="dtmf_6_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="mxk-9Y-QJ4"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="L5J-Po-y7g">
+                            <rect key="frame" x="0.0" y="162" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_star.png" backgroundImage="dtmf_star_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_star.png" backgroundImage="dtmf_star_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="hsK-Qi-Cak"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7OA-bz-UW2">
+                            <rect key="frame" x="102" y="162" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_0.png" backgroundImage="dtmf_0_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_0.png" backgroundImage="dtmf_0_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="x5C-cY-ZWO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" alpha="0.79999999999999982" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="522-o2-2Hr">
+                            <rect key="frame" x="204" y="162" width="102" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="dtmf_well.png" backgroundImage="dtmf_well_bg.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted" image="dtmf_well.png" backgroundImage="dtmf_well_bg_highlighted.png"/>
+                            <connections>
+                                <action selector="dtmfButtonClick:" destination="-1" eventType="touchUpInside" id="FAj-M4-R59"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dtmf_ triangle.png" id="gi4-bX-U5v">
+                    <rect key="frame" x="240" y="215" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="990" y="164.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="SWB-ys-JyJ">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xO3-cb-Y6e">
+                    <rect key="frame" x="35" y="1" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="dtmf_front_camera_label.png" backgroundImage="button_bg.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="button_bg_highlighted.png"/>
+                    <connections>
+                        <action selector="scrollButtonClick:" destination="-1" eventType="touchUpInside" id="tWt-ih-x8O"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8zL-3U-ZAH">
+                    <rect key="frame" x="103" y="1" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="dtmf_unmute.png" backgroundImage="button_bg.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" image="dtmf_mute.png" backgroundImage="dtmf_button.png"/>
+                    <state key="highlighted" backgroundImage="button_bg_highlighted.png"/>
+                    <connections>
+                        <action selector="scrollButtonClick:" destination="-1" eventType="touchUpInside" id="Ccp-EV-Dlg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f11-oP-xDz">
+                    <rect key="frame" x="172" y="1" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="dtmf_sound_device.png" backgroundImage="button_bg.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" image="dtmf_sound_speaker.png" backgroundImage="dtmf_button.png"/>
+                    <state key="highlighted" backgroundImage="button_bg_highlighted.png"/>
+                    <connections>
+                        <action selector="scrollButtonClick:" destination="-1" eventType="touchUpInside" id="wFc-18-pZb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Sc1-Sc-w7Z">
+                    <rect key="frame" x="240" y="1" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="dtmf_dial.png" backgroundImage="button_bg.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" image="dtmf_dial.png" backgroundImage="button_bg_highlighted.png"/>
+                    <connections>
+                        <action selector="scrollButtonClick:" destination="-1" eventType="touchUpInside" id="tvf-sU-onc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="999" y="450"/>
+        </view>
+        <view contentMode="scaleToFill" id="p6w-Oh-URc">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1005" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YM2-bX-Uy0">
+                    <rect key="frame" x="35" y="1" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="dtmf_unhold.png" backgroundImage="button_bg.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" image="dtmf_hold.png" backgroundImage="dtmf_button.png"/>
+                    <state key="highlighted" backgroundImage="button_bg_highlighted.png"/>
+                    <connections>
+                        <action selector="scrollButtonClick:" destination="-1" eventType="touchUpInside" id="hby-1T-lOH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zmJ-wY-0mf">
+                    <rect key="frame" x="103" y="1" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="dtmf_add.png" backgroundImage="button_bg.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="button_bg_highlighted.png"/>
+                    <connections>
+                        <action selector="scrollButtonClick:" destination="-1" eventType="touchUpInside" id="0Qn-JR-0Sy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1007" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jOY-M4-nGU">
+                    <rect key="frame" x="172" y="1" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="dtmf_transfer.png" backgroundImage="button_bg.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" image="dtmf_transfer.png" backgroundImage="button_bg_highlighted.png"/>
+                    <connections>
+                        <action selector="scrollButtonClick:" destination="-1" eventType="touchUpInside" id="0K5-dq-zFk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1008" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZPl-eH-hcl">
+                    <rect key="frame" x="240" y="1" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="dtmf_unrecord.png" backgroundImage="button_bg.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" image="dtmf_recording.png" backgroundImage="dtmf_button.png"/>
+                    <state key="highlighted" backgroundImage="button_bg_highlighted.png"/>
+                    <connections>
+                        <action selector="scrollButtonClick:" destination="-1" eventType="touchUpInside" id="jf8-gU-GtC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="999" y="538"/>
+        </view>
+        <view contentMode="scaleToFill" id="jBd-Yf-SOg">
+            <rect key="frame" x="0.0" y="0.0" width="109" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="893.5" y="652"/>
+        </view>
+        <view contentMode="scaleToFill" id="icb-AL-tTd">
+            <rect key="frame" x="0.0" y="0.0" width="225" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dtmf_button.png" id="A9j-SW-TSX">
+                    <rect key="frame" x="0.0" y="0.0" width="225" height="145"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rGc-Ld-wnY">
+                    <rect key="frame" x="25" y="20" width="150" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Front Camera">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onCameraButtonClick:" destination="-1" eventType="touchUpInside" id="Y3p-Oe-xa5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ld7-iw-PVg">
+                    <rect key="frame" x="25" y="58" width="150" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Back Camera">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onCameraButtonClick:" destination="-1" eventType="touchUpInside" id="w50-VV-HSa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F7V-Gb-ucg">
+                    <rect key="frame" x="25" y="96" width="150" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="None Camera">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onCameraButtonClick:" destination="-1" eventType="touchUpInside" id="loS-Dc-axx"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" alpha="0.74999999999999978" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dtmf_ triangle.png" id="igT-Fq-oPI">
+                    <rect key="frame" x="15" y="145" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="1316.5" y="143"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon.png" width="57" height="57"/>
+        <image name="button_bg.png" width="2" height="2"/>
+        <image name="button_bg_highlighted.png" width="2" height="2"/>
+        <image name="call_audio_label.png" width="40" height="40"/>
+        <image name="call_bg.png" width="640" height="1136"/>
+        <image name="call_button_answer_green_bg.png" width="26" height="80"/>
+        <image name="call_hang_label.png" width="40" height="40"/>
+        <image name="call_hangup_bg.png" width="26" height="80"/>
+        <image name="call_hangup_bg_highlighted.png" width="26" height="80"/>
+        <image name="call_video_label.png" width="40" height="40"/>
+        <image name="common_background.png" width="320" height="568"/>
+        <image name="dtmf_ triangle.png" width="30" height="30"/>
+        <image name="dtmf_0.png" width="102" height="54"/>
+        <image name="dtmf_0_bg.png" width="102" height="54"/>
+        <image name="dtmf_0_bg_highlighted.png" width="102" height="54"/>
+        <image name="dtmf_1.png" width="102" height="54"/>
+        <image name="dtmf_1_bg.png" width="102" height="54"/>
+        <image name="dtmf_1_bg_highlighted.png" width="102" height="54"/>
+        <image name="dtmf_2.png" width="102" height="54"/>
+        <image name="dtmf_2_bg.png" width="102" height="54"/>
+        <image name="dtmf_2_bg_highlighted.png" width="102" height="54"/>
+        <image name="dtmf_3.png" width="102" height="54"/>
+        <image name="dtmf_3_bg.png" width="102" height="54"/>
+        <image name="dtmf_3_bg_highlighted.png" width="102" height="54"/>
+        <image name="dtmf_4.png" width="102" height="54"/>
+        <image name="dtmf_4_bg.png" width="102" height="54"/>
+        <image name="dtmf_4_bg_highlighted.png" width="102" height="54"/>
+        <image name="dtmf_5.png" width="102" height="54"/>
+        <image name="dtmf_5_bg.png" width="102" height="54"/>
+        <image name="dtmf_5_bg_highlighted.png" width="102" height="54"/>
+        <image name="dtmf_6.png" width="102" height="54"/>
+        <image name="dtmf_6_bg.png" width="102" height="54"/>
+        <image name="dtmf_6_bg_highlighted.png" width="102" height="54"/>
+        <image name="dtmf_7.png" width="102" height="54"/>
+        <image name="dtmf_8.png" width="102" height="54"/>
+        <image name="dtmf_9.png" width="102" height="54"/>
+        <image name="dtmf_add.png" width="40" height="40"/>
+        <image name="dtmf_button.png" width="2" height="2"/>
+        <image name="dtmf_dial.png" width="40" height="40"/>
+        <image name="dtmf_front_camera_label.png" width="40" height="40"/>
+        <image name="dtmf_hold.png" width="40" height="40"/>
+        <image name="dtmf_mute.png" width="40" height="40"/>
+        <image name="dtmf_recording.png" width="40" height="40"/>
+        <image name="dtmf_sound_device.png" width="40" height="40"/>
+        <image name="dtmf_sound_speaker.png" width="40" height="40"/>
+        <image name="dtmf_star.png" width="102" height="54"/>
+        <image name="dtmf_star_bg.png" width="102" height="54"/>
+        <image name="dtmf_star_bg_highlighted.png" width="102" height="54"/>
+        <image name="dtmf_transfer.png" width="40" height="40"/>
+        <image name="dtmf_unhold.png" width="40" height="40"/>
+        <image name="dtmf_unmute.png" width="40" height="40"/>
+        <image name="dtmf_unrecord.png" width="40" height="40"/>
+        <image name="dtmf_well.png" width="102" height="54"/>
+        <image name="dtmf_well_bg.png" width="102" height="54"/>
+        <image name="dtmf_well_bg_highlighted.png" width="102" height="54"/>
+    </resources>
+</document>

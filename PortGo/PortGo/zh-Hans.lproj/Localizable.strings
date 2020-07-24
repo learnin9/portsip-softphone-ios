@@ -1,0 +1,703 @@
+/*
+ Localizable.strings
+ PortGo
+ 
+ Created by MrLee on 14-9-2.
+ Copyright (c) 2014年 PortSIP Solutions, Inc. All rights reserved.
+ */
+/* Localized versions of Info.plist keys */
+
+
+
+/* Login view */
+"Accounts" = "账号";
+"UserName" = "用户名";
+"Password" = "密码";
+"SIP Server" = "域名";
+"Server Port" = "端口";
+"Names" = "显示名";
+"Transport" = "传输协议";
+"Remember me" = "保存密码";
+"Name MaxLen" = "账号最长%d字符";
+"Auto Login" = "自动登陆";
+"Show Advanced Options" = "显示更多选项";
+"Hide Advanced Options" = "隐藏更多选项";
+"Enable Logging" = "启用日志";
+"About" = "关于";
+"Display Name" = "显示为";
+"Auth Name" = "认证名";
+"User Domain" = "域名";
+"Signaling Transport" = "传输协议";
+"Enable STUN" = "启用STUN";
+"Server" = "服务器地址";
+"Port" = "端口号";
+"Version" = "版本";
+"Signing in" = "登录中";
+"NetWork error" = "网络错误";
+"Initial SDK error" = "初始化SDK错误";
+"Account info error" = "账号信息错误";
+"Unable to login" = "登录失败";
+"Forgot Password" = "忘记密码";
+
+"ACCOUNT ADDITIONAL" ="其他选项";
+"Outbound Proxy" ="出站代理";
+
+"[display is the default]" ="[默认值为用户名]";
+"[username is the default]" ="[默认值为用户名]";
+"[domain is the default]" = "[默认值为域名]";
+
+"STUN" = "STUN";
+
+"IM AND PRESENCE" = "IM消息和在线状态";
+"Presence Agent" ="在线状态代理";
+"Publish Refresh" = "状态发布刷新";
+"Subscribe Refresh" = "状态订阅刷新";
+
+"TLS CERT MANAGEMENT" = "TLS 证书管理";
+"Verify TLS Cert" = "验证 TLS 证书";
+
+"invalide qr code" = "错误的二维码格式";
+
+
+
+//AdvanceOptionsView
+"Advance" = "高级选项";
+"Outbound" = "出站代理";
+
+/*Contacts View*/
+"Contacts" = "联系人";
+"Friends" = "好友";
+"Favorites" = "收藏夹";
+"Select All" = "全选";
+"Select" = "选择";
+"Message" = "短消息";
+"Search Contact" = "搜索联系人";
+
+"Edit Contact" = "编辑联系人";
+"edit" = "编辑";
+
+/*ContactDetail View*/
+"Call Detail" = "通话详情";
+"Contact Detail" = "联系人详情";
+"Unknown" = "未知";
+"Add to Favorite" = "添加到收藏";
+"Remove from Favorite" = "从收藏中移除";
+"Delete Avatar" = "删除头像";
+"Camera" = "拍照";
+"Photo Liberary" = "相册";
+
+"Call Out"  = "呼出电话";
+"Call In" = "呼入电话";
+"Call Failed" = "通话失败";
+"Unconnect" = "通话未连接";
+
+//AddorEditView
+"FirstName" = "名";
+"LastName" = "姓";
+"Company" = "公司";
+"Department" = "部门";
+"JobTitle" = "职位";
+"Enter FirstName" = "输入名字";
+"Enter LastName" = "输入姓氏";
+"Enter CompanyName" = "输入公司名称";
+"Enter Department" = "输入部门名称";
+"Enter Jobtitle" = "输入职位名称";
+
+"Add Contact" = "添加联系人";
+"Save" = "保存";
+"Done" = "完成";
+"Add New Label" = "添加自定义标签";
+"Add PhoneNumber" = "添加电话";
+"Add VoIP Number" = "添加网络电话";
+"IM Address" = "即时通讯地址";
+"No IM" = "无即时通讯地址";
+"VoIP Call" = "网络电话";
+"Notice!" = "注意！";
+"Please enter one of LastName and FirtName at least" = "请至少输入姓和名中的一个";
+"Know That" = "知道了";
+"Delete Contact" ="删除联系人";
+
+"Select  IM Address" = "选择网络电话地址";
+"tempstr" = "所选网络号码(SIP URI)用于即时消息地址和在线信息订阅。您可以通过编辑联系人属性来修改网络电话地址列表";
+
+
+/*Recents View*/
+"Recents" = "最近通话";
+"All Calls" = "所有通话";
+"Missed Calls" = "未接通话";
+"Audio" = "语音通话";
+"Video"="视频通话";
+"Unknown" = "未知";
+"Clear All Entries" = "清除所有条目";
+"Clear Missed Entries" = "清除未接电话";
+"Cancel" = "取消";
+"Create New Contact" = "创建新联系人";
+"Add to Existing Contact" = "添加到现有联系人";
+"Send a text message" = "发送消息";
+"Make Audio call" = "拨打语音电话";
+"Make Video call" = "拨打视频电话";
+"Call History" = "通话记录";
+
+
+/* Numpad view */
+"Numpad" = "拨号";
+"HangUp Call" = "通话结束";
+"Trying" = "正在呼叫";
+"Ringing" = "响铃中";
+"Remote hold" = "对方挂起";
+"Remote unHold" = "通话恢复";
+"Tap to Return Call" = "点击返回通话";
+"offline" = "离线";
+"online" = "在线";
+"Remote Hangup" = "对方挂断";
+"Call ending" = "通话结束";
+"Transfer" = "转接";
+"Conference" = "会议";
+"Front Camera" = "前置摄像头";
+"Back Camera" = "后置摄像头";
+"None Camera" = "无摄像头";
+
+"You have no Voice Mail number!" = "您还没有设置语音邮箱";
+
+/*Notification Center*/
+"Call from" = "语音来电";
+"Video call from" = "视频来电";
+"Call closed" = "通话结束";
+"Missed call" = "未接来电";
+"Message_Tips"="您有一条来自disname的message。";
+
+"Audio_Message"="语音消息";
+"File_Message"="文件消息";
+"Video_Message"="视频消息";
+"Text_Message"="文字消息";
+"Image_Message"="图片消息";
+"Unknow_Message"= "消息";
+
+/*Messages View*/
+"Messages" = "消息";
+"Send" = "发送";
+"Copy " = "复制";
+"Delete" = "删除";
+"Forward" = "转发";
+"DownLoad" = "下载";
+
+"Video Call" = "视频呼叫";
+"Audio Call" = "语音呼叫";
+"File Transfer" = "文件发送";
+
+"All read" = "全部已读";
+
+"Enter message" = "输入消息";
+
+"Decline" ="拒绝";
+"Accept" = "同意";
+"New Friends" = "好友请求";
+
+"Accepted" = "已同意";
+"Refused" = "已拒绝";
+"New Message" = "新消息";
+"Voice Message Too Short" = "语音消息太短!";
+
+/*Webpage View*/
+"Home" = "主页";
+
+/*Settings View*/
+"Settings" = "设置";
+"Account" = "账号";
+"Preferences" = "高级设置";
+"Codecs" = "编码器";
+"Premium Features" = "高级功能";
+
+
+"Available" ="在线";
+"Away" ="离开";
+"Do not disturb" ="请勿打扰";
+"Busy" ="忙碌";
+"offline" ="离线";
+
+"All" ="全部";
+
+
+//Settings  Account
+
+"Display as" ="显示为";
+//"SIP Server" = "SIP 服务器地址";
+
+"Do Not Disturb" = "勿扰";
+"Dial Plan" = "拨号计划";
+"Call Forward" = "呼叫转移";
+"Voice Mail" = "语音邮箱";
+
+
+"Disable forward" = "禁止转移";
+"Forward all" = "全部转移";
+"Forward when busy" = "遇忙转移";
+"Forward when no answer" = "无应答转移";
+"Forward after (seconds)" = "   无应答时间（秒）";
+"Forward to" = "转移目的号码";
+"seconds" ="3秒";
+"no set call for" = "呼叫转移的目的号码没有设置，呼叫转移将不会生效";
+
+"Add" = "添加";
+
+"Name is required" = "名称不能为空";
+"Example" = "示例";
+
+"New Dial Plan" = "新增拨号计划";
+"Name"="名称";
+"Match Prefix"="匹配前缀";
+"Remove Prefix"="删除前缀";
+"Prepend Prefix"="添加前缀";
+
+
+"SIP MISCELLANEOUS" ="SIP 杂项";
+"Enable PRACK" ="启用PRACK";
+
+"Enable Early Media" = "启用Early Media";
+"Enable IMS" ="启用IMS";
+
+
+"Passive Session Timer" ="会话计时器 (RFC4028)";
+
+"CALL RECORDING" ="通话录音";
+"Enalbe Call Record" ="自动通话录音";
+
+"All recording files" = "全部录音文件";
+
+/*Accounts View*/
+"User Name" = "用户名";
+"Sign Out" = "登出";
+
+
+/*Preferences View*/
+"Allow VoIP Calls" = "允许VoIP通话";
+"Integrated calling" = "集成设备系统呼叫";
+"Force Background" = "强制后台";
+"RTP Port Start" = "RTP起始端口";
+"Acoustic Echo Cancellation" = "回音消除";
+"Voice Activity Detection" = "静音检测";
+"Noise Reduction" = "降低背景噪音";
+"Comfort Noise Generator" = "舒适噪音";
+"Automatic Gain Control" = "自动增益控制";
+"Video Resolution" = "视频分辨率";
+"Video Frame Rate" = "视频帧率";
+"Video Bit Rate" = "视频码流";
+"Video NACK feature(RFC4585)" = "视频NACK (RFC4585)";
+"Forward Incoming Calls" = "转移呼叫";
+"Send DTMF Using" = "DTMF发送";
+"Play DTMF Tones Back To Me" = "播放DTMF回音";
+"Number:" = "账号:";
+
+"MOBILE DATA NETWORK" = "移动数据网络";
+"Enable to allow application to use your mobile data plan when WIFI is not available." = "启用以允许应用程序在无Wi-Fi可用时使用您的移动数据套餐";
+
+"BACKGROUND" = "后台";
+"Enable to support incoming calls while in background. Enabling this option will significantly decrease battery life!" = "启用以支持后台接收来电, 启用此选项会极大降低电源寿命!";
+
+
+"CALLS" = "呼叫选项";
+"Receive incoming calls on your lock screen and make calls from your device's contact list." = "启动以允许锁屏状态下能接收来电并且能够呼叫手机设备上的联系人";
+
+"AUDIO OPTIONS" = "音频选项";
+"VIDEO OPTIONS" = "视频选项";
+"CLIENT-SIDE CALL FORWARDING" = "客户端呼叫转移";
+"DTMF TYPE" = "DTMF类型";
+"Sign In" = "登录";
+"SRTP" = "通话加密 SRTP";
+"None" = "从不";
+"Prefer" = "可选";
+"Force" = "始终";
+
+
+/*Codecs View*/
+"Audio Codecs" = "音频编码器";
+"Video Codecs" = "视频编码器";
+
+"OK" = "确定";
+
+/*Dial View*/
+"BlueTooth" = "蓝牙";
+"iPhone" = "听筒";
+"Speaker" = "扬声器";
+
+//other
+"Program problems there" = "程序出了点小问题";
+
+"Crash information" ="崩溃信息";
+
+"Tips" = "友情提示";
+"Appreciated with 5-star comment"  = "亲，您的宝贵意见是我们进步的动力！";
+"Comment us" = "去评价";
+"Comment later" = "以后再说";
+
+
+
+"Premium Features Introduction1" = "H.264 高质量/低带宽视频编码器。使用 AMR- WB 提供恶劣网络条件下的超高清音质。\n需要 VoIP 提供商/远程参与方支持。";
+
+"Premium Features Introduction2" = "如果您已购买高级功能，但该功能仍显示为未安装，可使用上方的按钮与 APP Store 同步。";
+
+
+"Available as a premium feature" = "作为高级功能提供";
+
+"Sync Premium Features" = "同步高级功能";
+
+"Disturb Message" = "勿扰模式开启，您将不会接收到任何呼叫!";
+"Status" = "状态";
+
+
+"You receive a new call From"= "您有新来电 来自";
+"You receive a new message From" = "您收到一条新消息 来自";
+
+
+"Do not allow to call yourself" = "您正在尝试拨打本机 SIP 账号，无法接通";
+"Calling" = "对方已与您正在通话中";
+
+
+"Unable to logout" = "通话正在进行中，无法退出登录。";
+
+"Setting up chat background" = "设置当前聊天背景";
+"Take a picture" = "拍一张";
+"Select from Photo" = "从相册选择";
+"Delete chat background" = "删除当前聊天背景";
+
+
+
+//scanQR
+
+"Back" ="返回";
+"ScanQR" = "扫描二维码";
+"You can start scanning" = "将二维码/条码放入框内，即可自动扫描";
+"MyQR" = "我的二维码";
+"Photo" = "相册";
+
+"Scan result"  = "扫描结果";
+"Add a Contact" = "添加联系人";
+"Add friends" = "添加好友";
+
+
+"Hold to Talk" = "按住 说话";
+
+"Release to send" =  "松开 结束";
+
+"Slide up to cancel" =  "手指上滑，取消发送";
+"Release to cancel" =  "松开手指，取消发送";
+
+
+"Album" = "照片";
+
+
+//UC
+
+"imageimage_imageimage" ="[图片]";
+"shortvideo_shortvideo" ="[小视频]";
+"VoiceMessage_VoiceMessage" = "[语音消息]";
+"UnknowFormat_UnknowFormat" = "[未知格式]";
+"SendIn_SendIn" = "发送中...";
+"FileMessage_FileMessage" = "[文件]";
+
+
+"Photo_tip" =  "轻触拍照，按住摄像";
+"Save the picture" = "保存图片";
+
+
+/* Login view */
+//"Accounts" = "账号";
+//"UserName" = "用户名";
+//"Password" = "密码";
+//"SIP Server" = "SIP服务器地址";
+//"Server Port" = "端口号";
+//"Names" = "显示名";
+//"Transport" = "传输协议";
+//"Remember me" = "保存密码";
+//"Auto Login" = "自动登陆";
+//"Show Advanced Options" = "显示更多选项";
+//"Hide Advanced Options" = "隐藏更多选项";
+//"Enable Logging" = "启用日志";
+//"About" = "关于";
+//"Display Name" = "显示为";
+//"Auth Name" = "认证名";
+//"User Domain" = "用户域名";
+//"Signaling Transport" = "传输协议";
+//"Enable STUN" = "开启STUN";
+//"Server" = "服务器地址";
+//"Port" = "端口号";
+//"Version" = "版本";
+//"Signing in" = "登录中";
+//"NetWork error" = "网络错误";
+//"Initial SDK error" = "初始化SDK错误";
+//"Account info error" = "账号信息错误";
+//"Unable to login" = "登录失败";
+//"Forgot Password" = "忘记密码";
+//
+////AdvanceOptionsView
+//"Advance" = "高级选项";
+//"Outboard" = "出站协议";
+//
+///*PEROLAPA OEM*/
+//"New User" = "新用户";
+//"I am a returning user" = "我是注册用户";
+//"Forgot Password" = "忘记密码";
+//"Your User Name and Password will be send via email once you register as new user." = "注册新用户，用户名和密码通过邮件发送";
+//
+///*Contacts View*/
+//"Contacts" = "联系人";
+//"Friends" = "好友";
+//"Favorites" = "收藏夹";
+//"Select All" = "全选";
+//"Select" = "选择";
+//"Message" = "短信";
+//"Search Contact" = "搜索联系人";
+//
+//"edit" = "编辑";
+//
+///*ContactDetail View*/
+//"Call Detail" = "呼叫详情";
+//"Contact Detail" = "联系人详情";
+//"Unknown" = "未知";
+//"Add to Favorite" = "添加到收藏";
+//"Remove from Favorite" = "从收藏中移除";
+//"Delete Avatar" = "删除头像";
+//"Camera" = "拍照";
+//"Photo Liberary" = "相册";
+//
+//"Call Out"  = "呼出电话";
+//"Call In" = "呼入电话";
+//"Call Failed" = "通话失败";
+//"Unconnect" = "通话未连接";
+//
+//
+//
+////AddorEditView
+//"FirstName" = "名";
+//"LastName" = "姓";
+//"Company" = "公司";
+//"Department" = "部门";
+//"JobTitle" = "职位";
+//"Enter FirstName" = "输入名字";
+//"Enter LastName" = "输入姓氏";
+//"Enter CompanyName" = "输入公司名称";
+//"Enter Department" = "输入部门名称";
+//"Enter Jobtitle" = "输入职位名称";
+//
+//"Add Contact" = "添加联系人";
+//"Save" = "保存";
+//"Done" = "完成";
+//"Add Custom Mark" = "添加自定义标签";
+//"Add PhoneNumber" = "添加电话";
+//"Add VoIP Call" = "添加网络电话";
+//"IM Address" = "即时通讯地址";
+//"No IM" = "无即时通讯地址";
+//"VoIP Call" = "网络电话";
+//"Notice!" = "注意！";
+//"Please enter one of LastName and FirtName at least" = "请至少输入姓和名中的一个";
+//"Know That" = "知道了";
+//"Delete Contact" ="删除联系人";
+//
+//
+///*Recents View*/
+//"Recents" = "最近通话";
+//"All Calls" = "所有通话";
+//"Missed Calls" = "未接通话";
+//"Audio" = "语音通话";
+//"Video"="视频通话";
+//"Unknown" = "未知";
+//"Clear All Entries" = "清除所有条目";
+//"Clear Missed Entries" = "清除未接电话";
+//"Cancel" = "取消";
+//"Create New Contact" = "创建新联系人";
+//"Add to Existing Contact" = "添加到现有联系人";
+//"Send a text message" = "发送消息";
+//"Make Audio call" = "拨打语音电话";
+//"Make Video call" = "拨打视频电话";
+//
+//"Call History" = "通话记录";
+//
+//
+//
+///* Numpad view */
+//"Numpad" = "拨号盘";
+//"HangUp Call" = "通话结束";
+//"Trying" = "正在呼叫";
+//"Ringing" = "响铃中";
+//"Remote hold" = "对方挂起";
+//"Remote unHold" = "通话恢复";
+//"Tap to Return Call" = "点击返回通话";
+//"offline" = "离线";
+//"online" = "在线";
+//"Remote Hangup" = "对方挂断";
+//"Call ending" = "通话结束";
+//"Transfer" = "转接";
+//"Conference" = "会议";
+//"Front Camera" = "前置摄像头";
+//"Back Camera" = "后置摄像头";
+//"None Camera" = "无摄像头";
+//
+///*Notification Center*/
+//"Call from" = "语音来电";
+//"Video call from" = "视频来电";
+//"Call closed" = "通话结束";
+//"Missed call" = "未接来电";
+//
+///*Messages View*/
+//"Messages" = "消息";
+//"Send" = "发送";
+//"Copy " = "复制";
+//"Delete" = "删除";
+//
+//"Video Call" = "视频呼叫";
+//"Audio Call" = "语音呼叫";
+//
+//"All read" = "全部已读";
+//
+//"Enter message" = "输入短信";
+//
+//"Decline" ="拒绝";
+//"Accept" = "同意";
+//"New Friends" = "好友请求";
+//
+//"accepted" = "已同意";
+//"refused" = "已拒绝";
+//
+//"New Message" = "新消息";
+//
+//
+///*Webpage View*/
+//"Home" = "主页";
+//
+///*Settings View*/
+//"Settings" = "设置";
+//"Account" = "账号";
+//"Preferences" = "高级设置";
+//"Codecs" = "编码器";
+//"Premium Features" = "高级功能";
+//
+//
+//"Available" ="在线";
+//"Away" ="离开";
+//"Do not disturb" ="请勿打扰";
+//"Busy" ="忙碌";
+//"offine" ="离线";
+//
+//"All" ="全部";
+//
+//
+////Settings  Account
+//
+//"Display as" ="显示为";
+////"SIP Server" = "SIP 服务器地址";
+//
+//"Do Not Disturb" = "勿扰";
+//"Dial Plan" = "拨号计划";
+//"Call Forward" = "呼叫转移";
+//"Voice Mail" = "语音邮箱";
+//
+//
+//"Disable forward" = "禁止转移";
+//"Forward all" = "全部转移";
+//"Forward when busy" = "遇忙转移";
+//"Forward when no answer" = "无应答转移";
+//"Forward after (seconds)" = "   无应答时间（秒）";
+//"Forward to" = "转移";
+//"seconds" = "秒";
+//
+//"Add" = "添加";
+//
+//"Name is required" = "名称不能为空";
+//"Example" = "示例";
+//
+//"New Dial Plan" = "新增拨号计划";
+//"Name"="名称";
+//"Match Prefix"="匹配前缀";
+//"Remove Prefix"="删除前缀";
+//"Prepend Prefix"="添加前缀";
+//
+//
+//"SIP MISCELLANEOUS" ="SIP 杂项";
+//"Enable PRACK" ="启用PRACK";
+//"Enable IMS" ="启用IMS";
+//"Passive Session Timer" ="会话计时器";
+//
+//"CALL RECORDING" ="通话录音";
+//"Enalbe Call Record" ="自动通话录音";
+//
+//"All recording files" = "全部录音文件";
+//
+///*Accounts View*/
+//"User Name" = "用户名";
+//"Sign Out" = "登出";
+//
+//
+///*Preferences View*/
+//"Allow VoIP Calls" = "允许VoIP通话";
+//"Integrated calling" = "集成设备系统呼叫";
+//"Force Background" = "强制后台";
+//"RTP Port Start" = "RTP起始端口";
+//"Acoustic Echo Cancellation" = "回音消除";
+//"Voice Activity Detection" = "静音检测";
+//"Noise Reduction" = "降低背景噪音";
+//"Comfort Noise Generator" = "舒适噪音";
+//"Automatic Gain Control" = "自动增益控制";
+//"Video Resolution" = "视频分辨率";
+//"Video Frame Rate" = "视频帧率";
+//"Video Bit Rate" = "视频码流";
+//"Video NACK feature(RFC4585)" = "视频NACK (RFC4585)";
+//"Forward Incoming Calls" = "转移呼叫";
+//"Send DTMF Using" = "DTMF发送";
+//"Play DTMF Tones Back To Me" = "播放DTMF回音";
+//"Number:" = "账号:";
+//
+//"MOBILE DATA NETWORK" = "移动数据网络";
+//"Enable to allow application to use your mobile data plan when WIFI is not available." = "启用以允许应用程序在无Wi-Fi可用时使用您的移动数据套餐";
+//
+//"BACKGROUND" = "后台";
+//"Enable to support incoming calls while in background (only be used with UDP server or malconfigured TCP server). Enabling this option will significantly decrease battery life!" = "启用以支持后台接收来电(仅用于UDP服务器或malconfigured TCP服务器). 启用此选项会极大降低电源寿命!";
+//
+//
+//"CALLS" = "呼叫选项";
+//"Receive incoming calls on your lock screen and make calls from your device's contact list." = "启动以允许锁屏状态下能接收来电并且能够呼叫手机设备上的联系人";
+//
+//"AUDIO OPTIONS" = "音频选项";
+//"VIDEO OPTIONS" = "视频选项";
+//"CLIENT-SIDE CALL FORWARDING" = "客户端呼叫转移";
+//"DTMF TYPE" = "DTMF类型";
+//"Sign In" = "登录";
+//"SRTP" = "通话加密 SRTP";
+//"None" = "从不";
+//"Prefer" = "可选";
+//"Force" = "始终";
+//
+//
+///*Codecs View*/
+//"Audio Codecs" = "音频编码器";
+//"Video Codecs" = "视频编码器";
+//
+//"OK" = "确定";
+//
+///*Dial View*/
+//"BlueTooth" = "蓝牙";
+//"iPhone" = "听筒";
+//"Speaker" = "扬声器";
+//
+////other
+//"Program problems there" = "程序出了点小问题";
+//
+//"Crash information" ="崩溃信息";
+//
+//"Tips" = "友情提示";
+//"Appreciated with 5-star comment"  = "亲，您的宝贵意见是我们进步的动力！";
+//"Comment us" = "去评价";
+//"Comment later" = "以后再说";
+//
+//
+//
+//"Premium Features Introduction1" = "H.264 高质量/低带宽视频编码器。使用 AMR- WB 添加了恶劣网络条件下的超高清音质。\n需要 VoIP 提供商/远程参与方支持。";
+//
+//"Premium Features Introduction2" = "如果您已购买高级功能，但该功能仍显示为未安装，可使用上方的按钮与 APP Store 同步。";
+//
+//
+//"Available as a premium feature" = "作为高级功能提供";
+//
+//"Sync Premium Features" = "同步高级功能";
+
+
+

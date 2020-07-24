@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>MOBILE DATA NETWORK</string>
+		<string>BACKGROUND</string>
+		<string>CALLS</string>
+		<string>AUDIO OPTIONS</string>
+		<string>VIDEO OPTIONS</string>
+		<string>SRTP</string>
+		<string>DTMF TYPE</string>
+	</array>
+	<array>
+		<string>Allow VoIP Calls</string>
+	</array>
+	<array>
+		<string>Force Background</string>
+	</array>
+	<array>
+		<string>Integrated calling</string>
+	</array>
+	<array>
+		<string>RTP Port Start</string>
+	</array>
+	<array>
+		<string>Video Resolution</string>
+		<string>Video Frame Rate</string>
+		<string>Video Bit Rate</string>
+		<string>Video NACK feature(RFC4585)</string>
+	</array>
+	<array>
+		<string>SRTP</string>
+	</array>
+	<array>
+		<string>Send DTMF Using</string>
+		<string>Play DTMF Tones Back To Me</string>
+	</array>
+</array>
+</plist>

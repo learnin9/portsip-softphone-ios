@@ -1,0 +1,681 @@
+/*
+ Localizable.strings
+ MuslimSim
+ 
+ Copyright (c) 1440 MuslimSim, Inc. All rights reserved.
+ */
+/* Localized versions of Info.plist keys */
+
+
+
+
+/* Login view */
+"Accounts" = "Comptes";
+"UserName" = "MuslimSim ID";
+"Password" = "Mot de passe";
+"SIP Server" = "SIP serveur";
+"Server Port" = "Port de serveur";
+"Names" = "Noms";
+"Transport" = "TRANSPORT";
+"Remember me" = "Restez connecté";
+"Auto Login" = "Connexion automatique";
+"Show Advanced Options" = "Montrer les options avancées";
+"Hide Advanced Options" = "Masquer les options avancées";
+"Enable Logging" = "Activer la connexion";
+"About" = "Nous connaitre";
+"Display Name" = "Afficher le nom";
+"Auth Name" = "Nom d'authentification";
+"User Domain" = "Domaine";
+"Signaling Transport" = "Transport de signalisation";
+"Enable STUN" = "Activer STUN";
+"Server" = "Serveur";
+"Port" = "Port";
+"Version" = "Version";
+"Signing in" = "Connectez-vous";
+"NetWork error" = "Erreur de réseau";
+"Initial SDK error" = "Initialiser l'erreur SDK";
+"Account info error" = "Erreur d'info de compte";
+"Unable to login" = "Connection impossible";
+"Forgot Password" = "Mot de passe oublié";
+
+
+"ACCOUNT ADDITIONAL" ="COMPTE SUPPLÉMENTAIRE";
+"Outbound Proxy" = "Outbound Proxy";
+
+"[display is the default] =[Affichager par défaut]";
+"[username is the default] =[MuslimSim ID par défaut]";
+"[domain is the default]" = "[domain par défaut]";
+
+"STUN" = "STUN";
+
+"IM AND PRESENCE" = "IM AND PRESENCE";
+"Presence Agent" = "Agent de présence";
+"Publish Refresh" = "Actualiser la publication";
+"Subscribe Refresh" = "Actualiser la souscription ";
+
+"TLS CERT MANAGEMENT" = "TLS CERT MANAGEMENT";
+"Verify TLS Cert" = "Verify TLS Cert";
+
+"invalide qr code" = "Invalid QR code";
+
+
+
+//AdvanceOptionsView
+"Advance" = "Avancée";
+"Outbound" = "Outbound";
+
+/*Contacts View*/
+"Contacts" = "Contacts";
+"Friends" = "Amis";
+"Favorites" = "Favoris";
+"Select All" = "Tout sélectionner";
+"Select" = "Sélectionner";
+"Message" = "Message";
+"Search Contact" = "Rechercher un contact";
+
+"edit" = "Modifié";
+
+/*ContactDetail View*/
+"Call Detail" = "Détails de l'appel";
+"Contact Detail" = "Détails du contact";
+"Unknown" = "Inconnu";
+"Add to Favorite" = "Ajouter aux Favoris";
+"Remove from Favorite" = "Supprimer du favori";
+"Delete Avatar" = "Supprimer Avatar";
+"Camera" = "Caméra";
+"Photo Liberary" = "Galerie de photos";
+
+
+"Call Out"  = "Call Out";
+"Call In" = "Appelle";
+"Call Failed" = "Échec de l'appel";
+"Unconnect" = "Non connecté";
+
+
+//AddorEditView
+
+"IM" = "IM";
+
+"FirstName" = "Prénom";
+"LastName" = "Nom de famille";
+"Company" = "Compagnie";
+"Department" = "département";
+"JobTitle" = "Profession";
+"Enter FirstName" = "Entrez votre prénom";
+"Enter LastName" = "Entrer le nom de famille";
+"Enter CompanyName" = "Entrez le nom de l'entreprise";
+"Enter Department" = "Entrez Département";
+"Enter Jobtitle" = "Entrer le titre du poste";
+
+"Save To" = "Enregistrer vers";
+"System AddressBook" = "Carnet d'adresses système";
+"Sip AddressBook" = "Sip Carnet d'adresses";
+
+"Add Contact" = "Ajouter le contact";
+"Save" = "Sauvegarder";
+"Done" = "Terminé";
+"Create New Label" = "Créer une nouvelle étiquette";
+"Add PhoneNumber" = "Ajouter un numéro de téléphone";
+"Add VoIP Number" = "Ajouter un numéro VoIP";
+"IM Address" = "Adresse de messagerie instantanée";
+"No IM" = "Pas de IM";
+"VoIP Call" = "Appel VoIP";
+"Notice!" = "Remarque!";
+"Please enter one of LastName and FirtName at least" = "S'il vous plaît entrer l'un des nom et prénom au moins";
+"Know That" = "Sache que";
+
+"Delete Contact" = "Delete Contact";
+
+"Select  IM Address" = "Choisissez les adresses de messagerie instantanée";
+"tempstr" = "Le compte de messagerie instantanée choisi est pour la messagerie instantanée et l'abonnement aux messages en ligne. Il pourrait être modifié en éditant les détails du contact.";
+
+
+
+/*Recents View*/
+"Recents" = "Récents";
+"All Calls" = "TOUT";
+"Missed Calls" = "MANQUÉ";
+"Audio" = "Audio";
+"Video" = "Video";
+"Unknown" = "Inconnu";
+"Clear All Entries" = "Effacer toutes les entrées";
+"Clear Missed Entries" = "Effacer toutes les entrées manquées";
+"Cancel" = "Annuler";
+"Create New Contact" = "Créer un nouveau contact";
+"Add to Existing Contact" = "Ajouter à un contact existant";
+"Send a text message" = "Envoyer un SMS";
+"Make Audio call" = "Faire un appel audio";
+"Make Video call" = "Faire un appel vidéo";
+
+"Call History" = "Historique des appels";
+
+
+/* Numpad view */
+"Numpad" = "Numpad";
+"HangUp Call" = "Raccrochez appel";
+"Trying" = "En essayant";
+"Ringing" = "Sonnerie";
+"Remote hold" = "Mettre en attente";
+"Remote unHold" = "Désactivation de la mise en attente";
+"Tap to Return Call" = "Appuyez pour renvoyer l'appel";
+"offline" = "Hors ligne";
+"online" = "En ligne";
+"Remote Hangup" = "Raccrocher l'appel en attente";
+"Call ending" = "Fin de l'appel";
+"Transfer" = "Transfert";
+"Conference" = "Conférence";
+
+"You have no Voice Mail number!" = "Vous n'avez pas de numéro de messagerie vocale!";
+
+
+/*Notification Center*/
+"Call from" = "Appelez de";
+"Video call from" = "Appel vidéo de";
+"Call closed" = "Appel terminé";
+"Missed call" = "Appel manqué";
+
+
+/*Messages View*/
+"Messages" = "Messages";
+"Send" = "Envoyer";
+" Copy " = " Copie";
+" Delete" = "Effacer";
+
+"Video Call" = "Appel vidéo";
+"Audio Call" = "Appel audio";
+
+"All read" = "Tout lire";
+"Enter message" = "Entrez un message";
+
+"Decline" = "Decline";
+"Accept" = "Acceptez";
+"New Friends" = "Nouveaux amis";
+
+"Accepted" = "Accepté";
+"Refused" = "Refusé";
+"New Message" = "Nouveau message";
+
+"Voice Message Too Short" = "Voice Message Too Short!";
+
+/*Webpage View*/
+"Home" = "Accueil";
+
+/*Settings View*/
+"Settings" = "Paramètres";
+"Account" = "Compte";
+"Preferences" = "Préférences";
+"Codecs" = "Codecs";
+"Premium Features" = "Des fonctionnalités premium";
+
+"Online" = "En ligne";
+"Away" = "Absent";
+"Do not disturb" = "Ne pas déranger";
+"Busy" = "Occupé";
+"Offline" = "Hors ligne";
+"All"= "Tout";
+
+//Settings  Account
+
+"Display as" = "Afficher comme";
+
+"Do Not Disturb" = "Ne pas déranger";
+"Dial Plan" = "Plans de numérotation";
+"Call Forward" = "Transfert d'appel";
+"Voice Mail" = "Messagerie vocale";
+
+
+"Disable forward" = "Désactiver le renvoi d'appel";
+"Forward all" = "Transférer tout";
+"Forward when busy" = "Transférer quand occupé";
+"Forward when no answer" = "Transférer quand aucune réponse";
+"Forward after (seconds)" = "   Transférer si aucune réponse après (secondes)";
+
+"Forward to" = "Transférer à";
+
+"seconds" = "3 s";
+"no set call for" = "Le renvoi d'appel est désactivé car la destination est vide.";
+
+
+"Add" = "Ajouter";
+"Name is required" = "Le nom est requis";
+"Example" = "Exemple";
+
+
+"New Dial Plan" = "Nouveau plan de numérotation";
+"Name" = "Nom";
+"Match Prefix" = "Préfixe de match";
+"Remove Prefix" = "Supprimer le préfixe";
+"Prepend Prefix" = "Ajouter un préfixe";
+
+
+"SIP MISCELLANEOUS" = "SIP DIVERS";
+"Enable PRACK" = "Activer PRACK";
+"Enable IMS" = "Activer IMS";
+"Passive Session Timer" = "Passive Session Timer (RFC4028)";
+
+"CALL RECORDING" = "ENREGISTREMENT D'APPEL";
+"Enalbe Call Record" = "Activer l'enregistrement d'appel";
+
+"All recording files" = "Tous les fichiers d'enregistrement";
+
+
+
+/*Accounts View*/
+"User Name" = "MuslimSim ID";
+"Sign Out" = "Déconnexion";
+
+
+
+/*Preferences View*/
+"Allow VoIP Calls" = "Autoriser des appels";
+"Integrated calling" = "Appel intégré";
+"Force Background" = "Forcez le fond";
+"RTP Port Start" = "Début du port RTP";
+"Acoustic Echo Cancellation" = "Annulation d'écho acoustique";
+"Voice Activity Detection" = "Détection d'activité vocale";
+"Noise Reduction" = "Réduction de bruit";
+"Comfort Noise Generator" = "Générateur de bruit de confort";
+"Automatic Gain Control" = "Contrôle automatique du gain";
+"Video Resolution" = "Résolution vidéo";
+"Video Frame Rate" = "Frame rate vidéo";
+"Video Bit Rate" = "Bitrate vidéo";
+"Video NACK feature(RFC4585)" = "Fonction vidéo NACK (RFC4585)";
+"Forward Incoming Calls" = "Transférer les appels entrants";
+"Send DTMF Using" = "Envoyer DTMF en utilisant";
+"Play DTMF Tones Back To Me" = "Jouer à DTMF Tones Back To Me";
+"Number:" = "Nombre:";
+
+"MOBILE DATA NETWORK" = "RÉSEAU DE DONNÉES MOBILES";
+"Enable to allow application to use your mobile data plan when WIFI is not available." = "Activer pour permettre à l'application d'utiliser votre forfait de données mobiles lorsque WIFI n'est pas disponible.";
+
+"CALLS" = "APPELS";
+"Receive incoming calls on your lock screen and make calls from your device's contact list." = "Recevez les appels entrants sur votre écran de verrouillage et effectuez des appels à partir de la liste de contacts de votre appareil.";
+
+"BACKGROUND" = "CONTEXTE";
+"Enable to support incoming calls while in background. Enabling this option will significantly decrease battery life!" = "Activer pour prendre en charge les appels entrants en arrière-plan. L'activation de cette option réduit considérablement la durée de vie de la batterie!";
+
+
+"AUDIO OPTIONS" = "OPTIONS AUDIO";
+"VIDEO OPTIONS" = "OPTIONS VIDEO";
+"CLIENT-SIDE CALL FORWARDING" = "RENVOI D'APPEL CÔTÉ CLIENT";
+"DTMF TYPE" = "TYPE DTMF";
+"Sign In" = "Se connecter";
+"SRTP" = "SRTP";
+"None" = "Aucun";
+"Prefer" = "Préférer";
+"Force" = "Forcer";
+
+
+/*Codecs View*/
+"Audio Codecs" = "Codecs audio";
+"Video Codecs" = "Codecs vidéo";
+
+"OK" = "OK";
+
+
+/*Dial View*/
+"BlueTooth" = "BlueTooth";
+"iPhone" = "iPhone";
+"Speaker" = "Haut-parleur";
+
+//other
+"Program problems there" = "Program problems there";
+"Crash information" = "Informations sur l'incident";
+
+"Tips" = "Conseils";
+"Appreciated with 5-star comment"  = "Apprécié avec un commentaire 5 étoiles, Baraka Allahu fikum";
+"Comment us" = "Commentez nous";
+"Comment later" = "Commenter plus tard";
+
+"Premium Features Introduction1" = "H.264 Codec vidéo de haute qualité / faible bande passante Ajoutez une qualité audio HD supérieure dans des conditions de réseau défavorables avec AMR-WB. \ NSoujet au support/ participant à distance.";
+
+"Premium Features Introduction2" = "Si vous avez déjà acheté une fonctionnalité premium et qu'elle ne s'affiche pas comme installée, utilisez le bouton ci-dessus pour synchroniser avec le Apple Store.";
+
+
+"Available as a premium feature" = "Disponible en tant que fonctionnalité premium";
+
+"Sync Premium Features" = "Synchroniser les fonctionnalités Premium";
+
+"Disturb Message" = "Une fois que Ne Pas Déranger est activé, vous ne recevrez aucun appel!";
+
+"Status" = "Statut";
+
+"You receive a new call From" = "Vous recevez un nouvel appel de ";
+"You receive a new message From" = "Vous recevez un nouveau message de";
+
+"Do not allow to call yourself" = "Impossible de démarrer l'appel car il s'agit du compte auquel vous vous abonnez.";
+"Calling" = "L'utilisateur que vous essayez d'appeler est déjà dans la conversation.";
+
+"Unable to logout" = "Impossible de se déconnecter en raison de l'appel en cours.";
+
+
+
+"Setting up chat background" = "Configuration de l'arrière-plan du chat";
+"Take a picture" = "Prendre une photo";
+"Select from Photo" = "Sélectionner de la photo";
+"Delete chat background" = "Supprimer le fond de discussion";
+
+
+
+//scanQR
+
+"Back" = "Back";
+"ScanQR" = "Scannez le code QR";
+"You can start scanning" = "Mettez le code QR / code à barres dans la boîte et vous pouvez le scanner automatiquement";
+"MyQR" = "Mon code QR";
+"Photo" = "Photo";
+
+"Scan result"  = "Résultat de scanner";
+"Add a Contact" = "Ajouter un contact";
+"Add friends" = "Ajouter des amis";
+
+
+
+"Hold to Talk" = "Maintenir pour parler";
+
+"Release to send" =  "Relâcher pour envoyer";
+
+"Slide up to cancel" =  "Glissez vers le haut pour annuler";
+"Release to cancel" =  "Relâcher pour annuler";
+
+"Album" = "Album";
+
+
+/* Login view */
+//"Accounts" = "Accounts";
+//"UserName" = "UserName";
+//"Password" = "Password";
+//"SIP Server" = "Domain";
+//"Server Port" = "Server Port";
+//"Names" = "Names";
+//"Transport" = "TRANSPORT";
+//"Remember me" = "Remember me";
+//"Auto Login" = "Auto Login";
+//"Show Advanced Options" = "Show Advanced Options";
+//"Hide Advanced Options" = "Hide Advanced Options";
+//"Enable Logging" = "Enable Logging";
+//"About" = "About";
+//"Display Name" = "Display Name";
+//"Auth Name" = "Auth Name";
+//"User Domain" = "User Domain";
+//"Signaling Transport" = "Signaling Transport";
+//"Enable STUN" = "Enable STUN";
+//"Server" = "Server";
+//"Port" = "Port";
+//"Version" = "Version";
+//"Signing in" = "Signing in";
+//"NetWork error" = "NetWork error";
+//"Initial SDK error" = "Initial SDK error";
+//"Account info error" = "Account info error";
+//"Unable to login" = "Unable to login";
+//"Forgot Password" = "Forgot Password";
+//
+////AdvanceOptionsView
+//"Advance" = "Advanced";
+//"Outboard" = "Outboard";
+
+//
+///*Contacts View*/
+//"Contacts" = "Contacts";
+//"Friends" = "Friends";
+//"Favorites" = "Favorites";
+//"Select All" = "Select All";
+//"Select" = "Select";
+//"Message" = "Message";
+//"Search Contact" = "Search Contact";
+//
+//"edit" = "edit";
+//
+///*ContactDetail View*/
+//"Call Detail" = "Détail de l'appel";
+//"Contact Detail" = "Coordonnées";
+//"Unknown" = "Unknown";
+//"Add to Favorite" = "Add to Favorite";
+//"Remove from Favorite" = "Remove from Favorite";
+//"Delete Avatar" = "Delete Avatar";
+//"Camera" = "Camera";
+//"Photo Liberary" = "Photo Liberary";
+//
+//
+//"Call Out"  = "Appel sortant";
+//"Call In" = "Appel entrant";
+//"Call Failed" = "Appel échoué";
+//"Unconnect" = "Non-connecté";
+//
+//
+//
+////AddorEditView
+//
+//"IM" = "IM";
+//
+//"FirstName" = "Prénom";
+//"LastName" = "Nom de famille";
+//"Company" = "Société";
+//"Department" = "Département";
+//"JobTitle" = "Profession";
+//"Enter FirstName" = "Entrez votre prénom";
+//"Enter LastName" = "Entrer le nom de famille";
+//"Enter CompanyName" = "Entrez le nom de l'entreprise";
+//"Enter Department" = "Entrez la section";
+//"Enter Jobtitle" = "Entrer le poste";
+//
+//"Save To" = "Enregistrer vers";
+//"System AddressBook" = "Adresse du système";
+//"Sip AddressBook" = "Sip Carnet d'adresses";
+//
+//"Add Contact" = "Ajouter le contact";
+//"Save" = "Sauvegarder";
+//"Done" = "Terminé";
+//"Add Custom Mark" = "Ajouter une marque personnalisée";
+//"Add PhoneNumber" = "Ajouter un numéro de téléphone";
+//"Add VoIP Call" = "Ajouter un appel";
+//"IM Address" = "Adresse de messagerie instantanée";
+//"No IM" = "Pas IM";
+//"VoIP Call" = "Appel";
+//"Notice!" = "Remarque!";
+//"Please enter one of LastName and FirtName at least" = "S'il vous plaît entrer au moins un nom et un prénom";
+//"Know That" = "Sachez que";
+//
+//"Delete Contact" ="Effacer le contact";
+//
+///*Recents View*/
+//"Recents" = "Récents";
+//"All Calls" = "Tous les appels";
+//"Missed Calls" = "Appels manqués";
+//"Audio" = "Audio";
+//"Video"="Video";
+//"Unknown" = "Inconnu";
+//"Clear All Entries" = "Effacer toutes les entrées";
+//"Clear Missed Entries" = "Effacer toutes les entrées manquées";
+//"Cancel" = Annulée";
+//"Create New Contact" = "Créer un nouveau contact";
+//"Add to Existing Contact" = "Ajouter à un contact existant";
+//"Send a text message" = "Envoyer un SMS";
+//"Make Audio call" = "Faire un appel audio";
+//"Make Video call" = "Faire un appel vidéo";
+//
+//"Call History" = "Historique des appels";
+//
+//
+///* Numpad view */
+//"Numpad" = "Numpad";
+//"HangUp Call" = "Raccrochez appel";
+//"Trying" = "Essaie";
+//"Ringing" = "Sonne";
+//"Remote hold" = "Mise en attente";
+//"Remote unHold" = "Désactivé la mise en attente";
+//"Tap to Return Call" = "Appuyez pour renvoyer l'appel";
+//"offline" = "Hors ligne";
+//"online" = "En ligne";
+//"Remote Hangup" = "Raccrochez l'appel en attente";
+//"Call ending" = "Finir l'appel";
+//"Transfer" = "Transfert";
+//"Conference" = "Conference";
+//
+///*Notification Center*/
+//"Call from" = "Appel de";
+//"Video call from" = "Appel vidéo de";
+//"Call closed" = "Appel raccroché";
+//"Missed call" = "Appel manqué";
+//
+//
+///*Messages View*/
+//"Messages" = "Messages";
+//"Send" = "Envoyé";
+//" Copy " = " Copié ";
+//" Delete" = "Effacé";
+//
+//"Video Call" = "Appel vidéo";
+//"Audio Call" = "Appel audio";
+//
+//"All read" = "Tout lire";
+//"Enter message" = "Entrez un message";
+//
+//"Decline" ="Refuser";
+//"Accept" = "Accept";
+//"New Friends" = Nouvel ami";
+//
+//"accepted" = "accepté";
+//"refused" = "refusé";
+//"New Message" = "Nouveau message";
+//
+//
+//
+///*Webpage View*/
+//"Home" = "Accueil";
+//
+///*Settings View*/
+//"Settings" = "Paramètres";
+//"Account" = "Compte";
+//"Preferences" = "Préférences";
+//"Codecs" = "Codecs";
+//"Premium Features" = "Premium Features";
+//
+//"Available" ="Disponible";
+//"Away" ="Absent";
+//"Do not disturb" ="Ne pas déranger";
+//"Busy" ="Occupé";
+//"Offine" ="Hors ligne";
+//"All"="Tout";
+//
+////Settings  Account
+//
+//"Display as" ="Affiché comme";
+//
+//"Do Not Disturb" = "Ne pas dérangé";
+//"Dial Plan" = "Numérotation";
+//"Call Forward" = "Transfert d'appel";
+//"Voice Mail" = "Messagerie vocale";
+//
+//
+//"Disable forward" = "Désactivé le transfert d'appel";
+//"Forward all" = "Transférer tout";
+//"Forward when busy" = "Transférer quand occupé";
+//"Forward when no answer" = "Transférer quand pas de réponse";
+//"Forward after (seconds)" = "   Transférer après (secondes)";
+//"Forward to" = "Transférer vers";
+//"seconds" = "secondes";
+//
+//
+//
+//"Add" = "Ajouter";
+//"Name is required" = "Nom est requis";
+//"Example" = "Example";
+//
+//
+//"New Dial Plan" = "Nouvelle numérotation";
+//"Name"="Nom";
+//"Match Prefix"="Préfixe trouvé";
+//"Remove Prefix"="Effacé le préfixe";
+//"Prepend Prefix"="Ajouter un préfixe";
+//
+//
+//"SIP MISCELLANEOUS" ="SIP DIVERS";
+//"Enable PRACK" ="Activer PRACK";
+//"Enable IMS" ="Activer IMS";
+//"Passive Session Timer" ="Passive Session Timer";
+//
+//"CALL RECORDING" ="ENREGISTREMENT D'APPEL";
+//"Enalbe Call Record" ="Activer l'enregistrement d'appel";
+//
+//"All recording files" = "Tous les fichiers d'enregistrement";
+//
+//
+//
+///*Accounts View*/
+//"User Name" = "MuslimSim ID";
+//"Sign Out" = "Déconnexion";
+//
+//
+//
+///*Preferences View*/
+//"Allow VoIP Calls" = "Autoriser les appels VoIP";
+//"Integrated calling" = "Appels intégrés";
+//"Force Background" = "Forcez le fond";
+//"RTP Port Start" = "Début du port RTP";
+//"Acoustic Echo Cancellation" = "Annulation d'écho acoustique";
+//"Voice Activity Detection" = "Détection d'activité vocale";
+//"Noise Reduction" = "Réduction de bruit";
+//"Comfort Noise Generator" = "Générateur de bruit de confort";
+//"Automatic Gain Control" = "Contrôle automatique du gain";
+//"Video Resolution" = "Résolution vidéo";
+//"Video Frame Rate" = "Frame rate vidéo";
+//"Video Bit Rate" = "Bitrate vidéo";
+//"Video NACK feature(RFC4585)" = "Video NACK feature(RFC4585)";
+//"Forward Incoming Calls" = "Transférer les appels entrants";
+//"Send DTMF Using" = "Send DTMF Using";
+//"Play DTMF Tones Back To Me" = "Play DTMF Tones Back To Me";
+//"Number:" = "Numéro:";
+//
+//"MOBILE DATA NETWORK" = "RÉSEAU DE DONNÉES MOBILES";
+//"Enable to allow application to use your mobile data plan when WIFI is not available." = "Activer pour permettre à l'application d'utiliser votre forfait de données mobiles lorsque WIFI n'est pas disponible.";
+//
+//"CALLS" = "CALLS";
+//"Receive incoming calls on your lock screen and make calls from your device's contact list." = "Recevez les appels entrants sur votre écran de verrouillage et effectuez des appels à partir de la liste de contacts de votre appareil.";
+//
+//"BACKGROUND" = "BACKGROUND";
+//"Enable to support incoming calls while in background (only be used with UDP server or malconfigured TCP server). Enabling this option will significantly decrease battery life!" = "Activer la prise en charge des appels entrants en arrière-plan (à utiliser uniquement avec un serveur UDP ou un serveur TCP mal configuré). L'activation de cette option réduit considérablement la durée de vie de la batterie!";
+//
+//
+//"AUDIO OPTIONS" = "OPTIONS AUDIO";
+//"VIDEO OPTIONS" = "OPTIONS VIDEO";
+//"CLIENT-SIDE CALL FORWARDING" = "RENVOI D'APPEL CÔTÉ CLIENT";
+//"DTMF TYPE" = "DTMF TYPE";
+//"Sign In" = "Se connecter";
+//"SRTP" = "SRTP";
+//"None" = "Aucun";
+//"Prefer" = "Préférer";
+//"Force" = "Forcer";
+//
+//
+///*Codecs View*/
+//"Audio Codecs" = "Codecs Audio";
+//"Video Codecs" = "Codecs Vidéo";
+//
+//"OK" = "OK";
+//
+//
+///*Dial View*/
+//"BlueTooth" = "BlueTooth";
+//"iPhone" = "iPhone";
+//"Speaker" = "Haut-parleur";
+//
+////other
+//"Program problems there" = "Program problems there";
+//"Crash information" ="Informations sur l'incident";
+//
+//"Tips" = "Conseils";
+//"Appreciated with 5-star comment"  = "Apprécié avec un commentaire 5 étoiles, Baraka Allahu fikum";
+//"Comment us" = "Nous laisser un commentaire";
+//"Comment later" = "Laissez un commentaire plus tard";
+//
+//"Premium Features Introduction1" = "H.264 Codec vidéo de haute qualité / faible bande passante Ajoutez une qualité audio HD supérieure dans des conditions de réseau défavorables avec AMR-WB. \ NSoujet au support / participant à distance.";
+//
+//"Premium Features Introduction2" = "Si vous avez déjà acheté une fonctionnalité premium et qu'elle ne s'affiche pas comme installée, utilisez le bouton ci-dessus pour synchroniser avec l'Apple Store";
+//
+//
+//"Available as a premium feature" = "Disponible en tant que fonctionnalité premium";
+//
+//"Sync Premium Features" = "Synchroniser les fonctionnalités Premium";
+
+

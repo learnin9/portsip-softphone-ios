@@ -1,0 +1,708 @@
+/*
+ Localizable.strings
+ PortGo
+ 
+ Copyright (c) 2017 PortSIP Solutions, Inc. All rights reserved.
+ */
+/* Localized versions of Info.plist keys */
+
+
+
+
+/* Login view */
+"Accounts" = "Accounts";
+"UserName" = "UserName";
+"Password" = "Password";
+"SIP Server" = "Domain";
+"Server Port" = "Server Port";
+"Names" = "Names";
+"Transport" = "TRANSPORT";
+"Remember me" = "Remember me";
+"Name MaxLen" = "Max len is %d";
+"Auto Login" = "Auto Login";
+"Show Advanced Options" = "Show Advanced Options";
+"Hide Advanced Options" = "Hide Advanced Options";
+"Enable Logging" = "Enable Logging";
+"About" = "About";
+"Display Name" = "Display Name";
+"Auth Name" = "Auth Name";
+"User Domain" = "Domain";
+"Signaling Transport" = "Signaling Transport";
+"Enable STUN" = "Enable STUN";
+"Server" = "Server";
+"Port" = "Port";
+"Version" = "Version";
+"Signing in" = "Signing In";
+"NetWork error" = "Network error";
+"Initial SDK error" = "Initialize SDK error";
+"Account info error" = "Account info error";
+"Unable to login" = "Unable to login";
+"Forgot Password" = "Forgot Password";
+
+
+"ACCOUNT ADDITIONAL" ="ACCOUNT ADDITIONAL";
+"Outbound Proxy" ="Outbound Proxy"; 
+
+"[display is the default]" ="[display is the default]";
+"[username is the default]" ="[username is the default]";
+"[domain is the default]" = "[domain is the default]";
+
+"STUN" = "STUN";
+
+"IM AND PRESENCE" = "IM AND PRESENCE";
+"Presence Agent" ="Presence Agent";
+"Publish Refresh" = "Publish Refresh";
+"Subscribe Refresh" = "Subscribe Refresh";
+
+"TLS CERT MANAGEMENT" = "TLS CERT MANAGEMENT";
+"Verify TLS Cert" = "Verify TLS Cert";
+
+"invalide qr code" = "Invalid QR code";
+
+
+//AdvanceOptionsView
+"Advance" = "Advanced";
+"Outbound" = "Outbound";
+
+/*Contacts View*/
+"Contacts" = "Contacts";
+"Friends" = "Friends";
+"Favorites" = "Favorites";
+"Select All" = "Select All";
+"Select" = "Select";
+"Message" = "Message";
+"Search Contact" = "Search Contact";
+"Edit Contact" = "Edit Contact";
+
+"edit" = "edit";
+
+/*ContactDetail View*/
+"Call Detail" = "Call Details";
+"Contact Detail" = "Contact Details";
+"Unknown" = "Unknown";
+"Add to Favorite" = "Add to Favorite";
+"Remove from Favorite" = "Remove from Favorite";
+"Delete Avatar" = "Delete Avatar";
+"Camera" = "Camera";
+"Photo Liberary" = "Photo Library";
+
+
+"Call Out"  = "Call Out";
+"Call In" = "Call In";
+"Call Failed" = "Call Failed";
+"Unconnect" = "Unconnect";
+
+
+//AddorEditView
+
+"IM" = "IM";
+
+"FirstName" = "First Name";
+"LastName" = "Last Name";
+"Company" = "Company";
+"Department" = "Department";
+"JobTitle" = "Job Title";
+"Enter FirstName" = "Enter First Name";
+"Enter LastName" = "Enter Last Name";
+"Enter CompanyName" = "Enter Company Name";
+"Enter Department" = "Enter Department";
+"Enter Jobtitle" = "Enter Job Title";
+
+"Save To" = "Save To";
+"System AddressBook" = "System Address Book";
+"Sip AddressBook" = "Sip Address Book";
+
+"Add Contact" = "Add Contact";
+"Save" = "Save";
+"Done" = "Done";
+"Create New Label" = "Create New Label";
+"Add PhoneNumber" = "Add Phone Number";
+"Add VoIP Number" = "Add VoIP Number";
+"IM Address" = "IM Address";
+"No IM" = "No IM";
+"VoIP Call" = "VoIP Call";
+"Notice!" = "Notice!";
+"Please enter one of LastName and FirtName at least" = "Please enter one of Last Name and First Name at least";
+"Know That" = "Know that";
+
+"Delete Contact" ="Delete Contact";
+
+"Select  IM Address" = "Choose IM Addresses";
+"tempstr" = "The chosen IM account is for Instant Messaging and online message subscription. It could be modified by editing the contact details.";
+
+
+
+/*Recents View*/
+"Recents" = "Recents";
+"All Calls" = "ALL";
+"Missed Calls" = "MISSED";
+"Audio" = "Audio";
+"Video"="Video";
+"Unknown" = "Unknown";
+"Clear All Entries" = "Clear All Entries";
+"Clear Missed Entries" = "Clear all Missed Entries";
+"Cancel" = "Cancel";
+"Create New Contact" = "Create New Contact";
+"Add to Existing Contact" = "Add to Existing Contact";
+"Send a text message" = "Send a Text Message";
+"Make Audio call" = "Make Audio Call";
+"Make Video call" = "Make Video Call";
+
+"Call History" = "Call History";
+
+"Forward" = "forward";
+"DownLoad" = "download";
+/* Numpad view */
+"Numpad" = "Numpad";
+"HangUp Call" = "Hang Up Call";
+"Trying" = "Trying";
+"Ringing" = "Ringing";
+"Remote hold" = "Remote Hold";
+"Remote unHold" = "Remote un-Hold";
+"Tap to Return Call" = "Tap to return call";
+"offline" = "Offline";
+"online" = "Online";
+"Remote Hangup" = "Remote Hang Up";
+"Call ending" = "Call Ending";
+"Transfer" = "Transfer";
+"Conference" = "Conference";
+
+"You have no Voice Mail number!" = "You have no Voice Mail number!";
+
+
+/*Notification Center*/
+"Call from" = "Call from";
+"Video call from" = "Video call from";
+"Call closed" = "Call Closed";
+"Missed call" = "Missed Call";
+"Message_Tips"="You have received a message from disname.";
+
+"Audio_Message"="audio message";
+"File_Message"="file message";
+"Video_Message"="video message";
+"Text_Message"="text message";
+"Image_Message"="image message";
+"Unknow_Message"= "message";
+
+/*Messages View*/
+"Messages" = "Messages";
+"Send" = "Send";
+" Copy " = " Copy ";
+" Delete" = "Delete";
+
+"Video Call" = "Video Call";
+"Audio Call" = "Audio Call";
+
+"File Transfer" = "File Transfer";
+
+"Voice Message Too Short" = "Voice Message Too Short!";
+
+"All read" = "All Read";
+"Enter message" = "Enter Message";
+
+"Decline" ="Decline";
+"Accept" = "Accept";
+"New Friends" = "New Friends";
+
+"Accepted" = "Accepted";
+"Refused" = "Refused";
+"New Message" = "New Message";
+
+
+
+/*Webpage View*/
+"Home" = "Home";
+
+/*Settings View*/
+"Settings" = "Settings";
+"Account" = "Account";
+"Preferences" = "Preferences";
+"Codecs" = "Codecs";
+"Premium Features" = "Premium Features";
+
+"Online" ="Online";
+"Away" ="Away";
+"Do not disturb" ="Do Not Disturb";
+"Busy" ="Busy";
+"Offline" ="Offline";
+"All"="All";
+
+//Settings  Account
+
+"Display as" ="Display as";
+
+"Do Not Disturb" = "Do Not Disturb";
+"Dial Plan" = "Dial Plans";
+"Call Forward" = "Call Forwarding";
+"Voice Mail" = "Voice Mail";
+
+
+"Disable forward" = "Disable forward";
+"Forward all" = "Forward all";
+"Forward when busy" = "Forward when busy";
+"Forward when no answer" = "Forward when no answer";
+"Forward after (seconds)" = "   Forward if no answer after (seconds)";
+
+"Forward to" = "destination";
+
+"seconds" = "3 s";
+"no set call for" = "The call forward is disabled since the destination is empty.";
+
+
+"Add" = "Add";
+"Name is required" = "Name is required";
+"Example" = "Example";
+
+
+"New Dial Plan" = "New Dial Plan";
+"Name"="Name";
+"Match Prefix"="Match Prefix";
+"Remove Prefix"="Remove Prefix";
+"Prepend Prefix"="Add Prefix";
+
+
+"SIP MISCELLANEOUS" ="SIP MISCELLANEOUS";
+"Enable PRACK" ="Enable PRACK";
+"Enable Early Media" = "Enable Early Media";
+"Enable IMS" ="Enable IMS";
+"Passive Session Timer" ="Passive Session Timer (RFC4028)";
+
+"CALL RECORDING" ="CALL RECORDING";
+"Enalbe Call Record" ="Enable Call Record";
+
+"All recording files" = "All recording files";
+
+
+
+/*Accounts View*/
+"User Name" = "User Name";
+"Sign Out" = "Sign Out";
+
+
+
+/*Preferences View*/
+"Allow VoIP Calls" = "Allow VoIP Calls";
+"Integrated calling" = "Integrated Calling";
+"Force Background" = "Force Background";
+"RTP Port Start" = "RTP Port Start";
+"Acoustic Echo Cancellation" = "Acoustic Echo Cancellation";
+"Voice Activity Detection" = "Voice Activity Detection";
+"Noise Reduction" = "Noise Reduction";
+"Comfort Noise Generator" = "Comfort Noise Generator";
+"Automatic Gain Control" = "Automatic Gain Control";
+"Video Resolution" = "Video Resolution";
+"Video Frame Rate" = "Video Frame Rate";
+"Video Bit Rate" = "Video Bit Rate";
+"Video NACK feature(RFC4585)" = "Video NACK feature(RFC4585)";
+"Forward Incoming Calls" = "Forward Incoming Calls";
+"Send DTMF Using" = "Send DTMF Using";
+"Play DTMF Tones Back To Me" = "Play DTMF Tones Back To Me";
+"Number:" = "Number:";
+
+"MOBILE DATA NETWORK" = "MOBILE DATA NETWORK";
+"Enable to allow application to use your mobile data plan when WIFI is not available." = "Enable to allow application to use your mobile data plan when WIFI is not available.";
+
+"CALLS" = "CALLS";
+"Receive incoming calls on your lock screen and make calls from your device's contact list." = "Receive incoming calls on your lock screen and make calls from your device's contact list.";
+
+"BACKGROUND" = "BACKGROUND";
+"Enable to support incoming calls while in background. Enabling this option will significantly decrease battery life!" = "Enable to support incoming calls while in background. Enabling this option will significantly decrease battery life!";
+
+
+"AUDIO OPTIONS" = "AUDIO OPTIONS";
+"VIDEO OPTIONS" = "VIDEO OPTIONS";
+"CLIENT-SIDE CALL FORWARDING" = "CLIENT-SIDE CALL FORWARDING";
+"DTMF TYPE" = "DTMF TYPE";
+"Sign In" = "Sign In";
+"SRTP" = "SRTP";
+"None" = "None";
+"Prefer" = "Prefer";
+"Force" = "Force";
+
+
+/*Codecs View*/
+"Audio Codecs" = "Audio Codecs";
+"Video Codecs" = "Video Codecs";
+
+"OK" = "OK";
+
+
+/*Dial View*/
+"BlueTooth" = "BlueTooth";
+"iPhone" = "iPhone";
+"Speaker" = "Speaker";
+
+//other
+"Program problems there" = "Program problems there";
+"Crash information" ="Crash information";
+
+"Tips" = "Tips";
+"Appreciated with 5-star comment"  = "Appreciated with 5-star comment";
+"Comment us" = "Comment us";
+"Comment later" = "Comment later";
+
+"Premium Features Introduction1" = "H.264 High quality/low bandwidth video codec Add superior HD audio quality under adverse network conditions with AMR- WB.\nSubject to VoIP provider/remote participant support.";
+
+"Premium Features Introduction2" = "if you have already purchased a premium feature and it does not show as installed, use the button above to sync with the APP store.";
+
+
+"Available as a premium feature" = "Available as a premium feature";
+
+"Sync Premium Features" = "Sync Premium Features";
+
+"Disturb Message" = "Once Do Not Disturb is enabled,you will not receive any calls!";
+
+"Status" = "Status";
+
+"You receive a new call From"= "You receive a new call From";
+"You receive a new message From" = "You receive a new message From";
+
+"Do not allow to call yourself" = "Unable to start the call as it is the account you're subscribing.";
+"Calling" = "The user you try to call is already in the conversarion.";
+
+"Unable to logout" = "Unable to logout due to the ongoing call.";
+
+
+
+"Setting up chat background" = "Setting up chat background";
+"Take a picture" = "Take a picture";
+"Select from Photo" = "Select from Photo";
+"Delete chat background" = "Delete chat background";
+
+
+
+//scanQR
+
+"Back" ="Back";
+"ScanQR" = "Scan QR code";
+"You can start scanning" = "Put the QR code/barcode into the box and you can scan it automatically";
+"MyQR" = "My QR code";
+"Photo" = "Photo";
+
+"Scan result"  = "Scan result";
+"Add a Contact" = "Add a Contact";
+"Add friends" = "Add friends";
+
+
+
+"Hold to Talk" = "Hold to Talk";
+
+"Release to send" =  "Release to send";
+
+"Slide up to cancel" =  "Slide up to cancel";
+"Release to cancel" =  "Release to cancel";
+
+"Album" = "Album";
+
+
+
+//UC
+
+"imageimage_imageimage" ="[Image]";
+"shortvideo_shortvideo" ="[ShortVideo]";
+"VoiceMessage_VoiceMessage" = "[VoiceMessage]";
+"UnknowFormat_UnknowFormat" = "[UnknowFormat]";
+"FileMessage_FileMessage" = "[File]";
+
+"SendIn_SendIn" = "Send In...";
+
+"Photo_tip" =  "Tap to take photo and hold to record video";
+"Save the picture" = "Save the picture";
+
+/* Login view */
+//"Accounts" = "Accounts";
+//"UserName" = "UserName";
+//"Password" = "Password";
+//"SIP Server" = "Domain";
+//"Server Port" = "Server Port";
+//"Names" = "Names";
+//"Transport" = "TRANSPORT";
+//"Remember me" = "Remember me";
+//"Auto Login" = "Auto Login";
+//"Show Advanced Options" = "Show Advanced Options";
+//"Hide Advanced Options" = "Hide Advanced Options";
+//"Enable Logging" = "Enable Logging";
+//"About" = "About";
+//"Display Name" = "Display Name";
+//"Auth Name" = "Auth Name";
+//"User Domain" = "User Domain";
+//"Signaling Transport" = "Signaling Transport";
+//"Enable STUN" = "Enable STUN";
+//"Server" = "Server";
+//"Port" = "Port";
+//"Version" = "Version";
+//"Signing in" = "Signing in";
+//"NetWork error" = "NetWork error";
+//"Initial SDK error" = "Initial SDK error";
+//"Account info error" = "Account info error";
+//"Unable to login" = "Unable to login";
+//"Forgot Password" = "Forgot Password";
+//
+////AdvanceOptionsView
+//"Advance" = "Advanced";
+//"Outboard" = "Outboard";
+//
+///*Contacts View*/
+//"Contacts" = "Contacts";
+//"Friends" = "Friends";
+//"Favorites" = "Favorites";
+//"Select All" = "Select All";
+//"Select" = "Select";
+//"Message" = "Message";
+//"Search Contact" = "Search Contact";
+//
+//"edit" = "edit";
+//
+///*ContactDetail View*/
+//"Call Detail" = "Call Detail";
+//"Contact Detail" = "Contact Detail";
+//"Unknown" = "Unknown";
+//"Add to Favorite" = "Add to Favorite";
+//"Remove from Favorite" = "Remove from Favorite";
+//"Delete Avatar" = "Delete Avatar";
+//"Camera" = "Camera";
+//"Photo Liberary" = "Photo Liberary";
+//
+//
+//"Call Out"  = "Call Out";
+//"Call In" = "Call In";
+//"Call Failed" = "Call Failed";
+//"Unconnect" = "Unconnect";
+//
+//
+//
+////AddorEditView
+//
+//"IM" = "IM";
+//
+//"FirstName" = "FirstName";
+//"LastName" = "LastName";
+//"Company" = "Company";
+//"Department" = "Department";
+//"JobTitle" = "JobTitle";
+//"Enter FirstName" = "Enter FirstName";
+//"Enter LastName" = "Enter LastName";
+//"Enter CompanyName" = "Enter CompanyName";
+//"Enter Department" = "Enter Department";
+//"Enter Jobtitle" = "Enter Jobtitle";
+//
+//"Save To" = "Save To";
+//"System AddressBook" = "System AddressBook";
+//"Sip AddressBook" = "Sip AddressBook";
+//
+//"Add Contact" = "Add Contact";
+//"Save" = "Save";
+//"Done" = "Done";
+//"Add Custom Mark" = "Add Custom Mark";
+//"Add PhoneNumber" = "Add PhoneNumber";
+//"Add VoIP Call" = "Add VoIP Call";
+//"IM Address" = "IM Address";
+//"No IM" = "No IM";
+//"VoIP Call" = "VoIP Call";
+//"Notice!" = "Notice!";
+//"Please enter one of LastName and FirtName at least" = "Please enter one of LastName and FirtName at least";
+//"Know That" = "Know That";
+//
+//"Delete Contact" ="Delete Contact";
+//
+///*Recents View*/
+//"Recents" = "Recents";
+//"All Calls" = "All Calls";
+//"Missed Calls" = "Missed Calls";
+//"Audio" = "Audio";
+//"Video"="Video";
+//"Unknown" = "Unknown";
+//"Clear All Entries" = "Clear All Entries";
+//"Clear Missed Entries" = "Clear All Missed Entries";
+//"Cancel" = "Cancel";
+//"Create New Contact" = "Create New Contact";
+//"Add to Existing Contact" = "Add to Existing Contact";
+//"Send a text message" = "Send a text message";
+//"Make Audio call" = "Make Audio call";
+//"Make Video call" = "Make Video call";
+//
+//"Call History" = "Call History";
+//
+//
+///* Numpad view */
+//"Numpad" = "Numpad";
+//"HangUp Call" = "HangUp Call";
+//"Trying" = "Trying";
+//"Ringing" = "Ringing";
+//"Remote hold" = "Remote hold";
+//"Remote unHold" = "Remote unHold";
+//"Tap to Return Call" = "Tap to Return Call";
+//"offline" = "Offline";
+//"online" = "Online";
+//"Remote Hangup" = "Remote Hangup";
+//"Call ending" = "Call ending";
+//"Transfer" = "Transfer";
+//"Conference" = "Conference";
+//
+///*Notification Center*/
+//"Call from" = "Call from";
+//"Video call from" = "Video call from";
+//"Call closed" = "Call closed";
+//"Missed call" = "Missed call";
+//
+//
+///*Messages View*/
+//"Messages" = "Messages";
+//"Send" = "Send";
+//" Copy " = " Copy ";
+//" Delete" = "Delete";
+//
+//"Video Call" = "Video Call";
+//"Audio Call" = "Audio Call";
+//
+//"All read" = "All read";
+//"Enter message" = "Enter message";
+//
+//"Decline" ="Decline";
+//"Accept" = "Accept";
+//"New Friends" = "New Friends";
+//
+//"accepted" = "accepted";
+//"refused" = "refused";
+//"New Message" = "New Message";
+//
+//
+//
+///*Webpage View*/
+//"Home" = "Home";
+//
+///*Settings View*/
+//"Settings" = "Settings";
+//"Account" = "Account";
+//"Preferences" = "Preferences";
+//"Codecs" = "Codecs";
+//"Premium Features" = "Premium Features";
+//
+//"Available" ="Available";
+//"Away" ="Away";
+//"Do not disturb" ="Do not disturb";
+//"Busy" ="Busy";
+//"Offine" ="Offine";
+//"All"="All";
+//
+////Settings  Account
+//
+//"Display as" ="Display as";
+//
+//"Do Not Disturb" = "Do Not Disturb";
+//"Dial Plan" = "Dial Plans";
+//"Call Forward" = "Call Forwarding";
+//"Voice Mail" = "Voice Mail";
+//
+//
+//"Disable forward" = "Disable forward";
+//"Forward all" = "Forward all";
+//"Forward when busy" = "Forward when busy";
+//"Forward when no answer" = "Forward when no answer";
+//"Forward after (seconds)" = "   Forward after (seconds)";
+//"Forward to" = "Forward to";
+//"seconds" = "seconds";
+//
+//
+//
+//"Add" = "Add";
+//"Name is required" = "Name is required";
+//"Example" = "Example";
+//
+//
+//"New Dial Plan" = "New Dial Plan";
+//"Name"="Name";
+//"Match Prefix"="Match Prefix";
+//"Remove Prefix"="Remove Prefix";
+//"Prepend Prefix"="Add Prefix";
+//
+//
+//"SIP MISCELLANEOUS" ="SIP MISCELLANEOUS";
+//"Enable PRACK" ="Enable PRACK";
+//"Enable IMS" ="Enable IMS";
+//"Passive Session Timer" ="Passive Session Timer";
+//
+//"CALL RECORDING" ="CALL RECORDING";
+//"Enalbe Call Record" ="Enalbe Call Record";
+//
+//"All recording files" = "All recording files";
+//
+//
+//
+///*Accounts View*/
+//"User Name" = "User Name";
+//"Sign Out" = "Sign Out";
+//
+//
+//
+///*Preferences View*/
+//"Allow VoIP Calls" = "Allow VoIP Calls";
+//"Integrated calling" = "Integrated calling";
+//"Force Background" = "Force Background";
+//"RTP Port Start" = "RTP Port Start";
+//"Acoustic Echo Cancellation" = "Acoustic Echo Cancellation";
+//"Voice Activity Detection" = "Voice Activity Detection";
+//"Noise Reduction" = "Noise Reduction";
+//"Comfort Noise Generator" = "Comfort Noise Generator";
+//"Automatic Gain Control" = "Automatic Gain Control";
+//"Video Resolution" = "Video Resolution";
+//"Video Frame Rate" = "Video Frame Rate";
+//"Video Bit Rate" = "Video Bit Rate";
+//"Video NACK feature(RFC4585)" = "Video NACK feature(RFC4585)";
+//"Forward Incoming Calls" = "Forward Incoming Calls";
+//"Send DTMF Using" = "Send DTMF Using";
+//"Play DTMF Tones Back To Me" = "Play DTMF Tones Back To Me";
+//"Number:" = "Number:";
+//
+//"MOBILE DATA NETWORK" = "MOBILE DATA NETWORK";
+//"Enable to allow application to use your mobile data plan when WIFI is not available." = "Enable to allow application to use your mobile data plan when WIFI is not available.";
+//
+//"CALLS" = "CALLS";
+//"Receive incoming calls on your lock screen and make calls from your device's contact list." = "Receive incoming calls on your lock screen and make calls frome your device's contact list.";
+//
+//"BACKGROUND" = "BACKGROUND";
+//"Enable to support incoming calls while in background (only be used with UDP server or malconfigured TCP server). Enabling this option will significantly decrease battery life!" = "Enable to support incoming calls while in background (only be used with UDP server or malconfigured TCP server). Enabling this option will significantly decrease battery life!";
+//
+//
+//"AUDIO OPTIONS" = "AUDIO OPTIONS";
+//"VIDEO OPTIONS" = "VIDEO OPTIONS";
+//"CLIENT-SIDE CALL FORWARDING" = "CLIENT-SIDE CALL FORWARDING";
+//"DTMF TYPE" = "DTMF TYPE";
+//"Sign In" = "Sign In";
+//"SRTP" = "SRTP";
+//"None" = "None";
+//"Prefer" = "Prefer";
+//"Force" = "Force";
+//
+//
+///*Codecs View*/
+//"Audio Codecs" = "Audio Codecs";
+//"Video Codecs" = "Video Codecs";
+//
+//"OK" = "OK";
+//
+//
+///*Dial View*/
+//"BlueTooth" = "BlueTooth";
+//"iPhone" = "iPhone";
+//"Speaker" = "Speaker";
+//
+////other
+//"Program problems there" = "Program problems there";
+//"Crash information" ="Crash information";
+//
+//"Tips" = "Tips";
+//"Appreciated with 5-star comment"  = "Appreciated with 5-star comment";
+//"Comment us" = "Comment us";
+//"Comment later" = "Comment later";
+//
+//"Premium Features Introduction1" = "H.264 High quality/low bandwidth video codec Add superior HD audio quality under adverse network conditions with AMR- WB.\nSubject to VoIP provider/remote participant support.";
+//
+//"Premium Features Introduction2" = "if you have already purchased a premium feature and it does not show as installed, use the button above to sync with the APP store.";
+//
+//
+//"Available as a premium feature" = "Available as a premium feature";
+//
+//"Sync Premium Features" = "Sync Premium Features";
+
+

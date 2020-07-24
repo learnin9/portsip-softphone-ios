@@ -1,0 +1,6 @@
+framework module PKShortVideo {
+  umbrella header "PKShortVideo-umbrella.h"
+
+  export *
+  module * { export * }
+}

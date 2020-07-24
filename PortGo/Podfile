@@ -1,0 +1,25 @@
+platform :ios, ‘9.0’
+
+inhibit_all_warnings!
+use_frameworks!
+
+project 'PortGo.xcodeproj'
+targetsArray = ['PortSIP']
+
+targetsArray.each do |t|
+target  t  do
+	pod 'FMDB'
+	pod 'Masonry'
+  pod 'JRDB'
+	pod 'IQKeyboardManager'
+	pod 'MJRefresh'
+	pod 'PKShortVideo'
+	pod 'SDWebImage', '~> 4.0'
+	pod 'AFNetworking', '~> 4.0', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
+	end
+end
+
+target  'PortNotificationExt'  do
+  pod 'AFNetworking', '~> 4.0', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
+end
+

@@ -1,0 +1,8 @@
+
+
+"NSCameraUsageDescription"  = "PortSIP needs access to your Camera to make and receive VoIP Video calls.";
+"NSContactsUsageDescription" ="PortSIP would like to use your contacts to make VoIP call to your friends! We do not store your contacts on the server.";
+
+"NSMicrophoneUsageDescription" = "PortSIP needs access to your microphone to make and receive VoIP calls.";
+
+"NSPhotoLibraryUsageDescription" = "PortSIP needs access to your PhotoLibrary to make and receive VoIP Video calls.";

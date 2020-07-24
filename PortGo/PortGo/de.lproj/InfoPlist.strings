@@ -1,0 +1,9 @@
+
+
+"NSCameraUsageDescription"  = "PortSIP benötigt Zugriff auf die Kamera, um VoIP-Video-Anrufe starten und empfangen zu können.";
+"NSContactsUsageDescription" ="PortSIP möchte Ihre Kontakte verwenden, um VoIP-Anrufe mit Ihren Freunden durchführen zu können! Es werden keine Kontakte auf dem Server gespeichert.";
+
+"NSMicrophoneUsageDescription" = "PortSIP benötigt Zugriff auf Ihr Mikrofon, um VoIP-Anrufe durchführen zu können.";
+
+"NSPhotoLibraryUsageDescription" = "PortSIP benötigt Zugriff auf Ihr Fotoalbum, um VoIP-Video-Anrufe durchführen zu können.";
+"NSBluetoothAlwaysUsageDescription" = "PortSIP benötigt Zugriff auf Bluetooth, um VoIP-Anrufe durchführen zu können.";

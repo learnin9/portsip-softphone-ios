@@ -1,0 +1,159 @@
+/*
+ Localizable.strings
+ PortGo
+ 
+ Copyright (c) 2017 PortSIP Solutions, Inc. All rights reserved.
+ */
+/* Localized versions of Info.plist keys */
+
+
+/* Login view */
+"Accounts" = "Cuentas";
+"UserName" = "Nombre de usuario";
+"Password" = "Contraseña";
+"SIP Server" = "Servidor SIP";
+"Server Port" = "Puerto de servidor";
+"Names" = "Nombres";
+"Transport" = "Transporte";
+"Remember me" = "Recordarme";
+"Auto Login" = "Entrada automática";
+"Show Advanced Options" = "Mostrar opciones avanzadas";
+"Hide Advanced Options" = "Ocultar opciones avanzadas";
+"Enable Logging" = "Activar el registro";
+"About" = "Sobre la app";
+"Display Name" = "Nombre de visualización";
+"Auth Name" = "Nombre de autorización";
+"User Domain" = "Dominio de usuario";
+"Signaling Transport" = "Transporte de señalización";
+"Enable STUN" = "Habilitar STUN";
+"Server" = "Servidor";
+"Port" = "Puerto";
+"Version" = "Versión";
+"Signing in" = "Iniciando sesión";
+"NetWork error" = "Error de red";
+"Initial SDK error" = "Error inicial de SDK";
+"Account info error" = "Error de información de la cuenta";
+"Unable to login" = "Incapaz de iniciar sesión";
+"Forgot Password" = "Olvidó la contraseña";
+
+/*Contacts View*/
+"Contacts" = "Contactos";
+"Favorites" = "Favoritos";
+
+/*Recents View*/
+"Recents" = "Recientes";
+"All Calls" = "Todas las llamadas";
+"Missed Calls" = "Llamadas perdidas";
+"Audio" = "Audio";
+"Video"="Vídeo";
+"Unknown" = "Desconocido";
+"Clear All Entries" = "Borrar todas las entradas";
+"Clear Missed Entries" = "Borrar todas las entradas perdidas";
+"Cancel" = "Cancelar";
+"Create New Contact" = "Crear nuevo contacto";
+"Add to Existing Contact" = "Agregar a un contacto existente";
+"Send a text message" = "Enviar un mensaje de texto";
+"Make Audio call" = "Hacer una llamada de voz";
+"Make Video call" = "Hacer una llamada de vídeo ";
+
+/* Numpad view */
+"Numpad" = "Teclado numérico";
+"HangUp Call" = "Colgar la llamada";
+"Trying" = "Intentando";
+"Ringing" = "Llamando";
+"Remote hold" = "Habilitar hold remotamente";
+"Remote unHold" = "Deshabilitar hold remotamente";
+"Tap to Return Call" = "Toque para devolver la llamada";
+"offline" = "desconectado";
+"Remote Hangup" = "Colgar remoto";
+"Call ending" = "Terminación de llamada";
+"Transfer" = "Traslado";
+"Conference" = "Conferencia";
+
+/*Notification Center*/
+"Call from" = "Llamada de";
+"Video call from" = "Videollamada desde";
+"Call closed" = "Llamada cerrada";
+"Missed call" = "Llamada perdida";
+
+
+/*Messages View*/
+"Messages" = "Mensajes";
+"Send" = "Enviar";
+" Copy " = " Copiar ";
+" Delete" = "Borrar";
+
+/*Webpage View*/
+"Home" = "Inicio";
+
+/*Settings View*/
+"Settings" = "Ajustes";
+"Account" = "Cuenta";
+"Preferences" = "Preferencias";
+"Codecs" = "Codecs";
+"Premium Features" = "Funciones Premium";
+
+
+
+/*Accounts View*/
+"User Name" = "Nombre de usuario";
+"Sign Out" = "Cerrar sesión";
+
+
+/*Preferences View*/
+"Allow VoIP Calls" = "Permitir llamadas VoIP";
+"Force Background" = "Forzar proceso de fondo";
+"Integrated calling" = "Llamada integrada";
+"RTP Port Start" = "Inicio del puerto RTP";
+"Acoustic Echo Cancellation" = "Cancelación de eco acústico";
+"Voice Activity Detection" = "Detección de actividad de voz";
+"Noise Reduction" = "Reducción de ruido";
+"Comfort Noise Generator" = "Generador de ruido de confort";
+"Automatic Gain Control" = "Control automatico de ganancia";
+"Video Resolution" = "Resolución de vídeo";
+"Video Frame Rate" = "Velocidad de fotogramas de vídeo";
+"Video Bit Rate" = "Tasa de bits de vídeo";
+"Video NACK feature(RFC4585)" = "Vídeo función NACK (RFC4585)";
+"Forward Incoming Calls" = "Desvía las llamadas entrantes";
+"Send DTMF Using" = "Enviar DTMF usando";
+"Play DTMF Tones Back To Me" = "Reproducir tonos DTMF";
+"Number:" = "Número:";
+
+"MOBILE DATA NETWORK" = "RED DE DATOS MÓVILES";
+"Enable to allow application to use your mobile data plan when WIFI is not available." = "Habilite para permitir que la aplicación utilice su plan de datos móvil cuando WIFI no esté disponible.";
+
+"CALLS" = "LLAMADAS";
+"Receive incoming calls on your lock screen and make calls from your device's contact list." = "Recibir llamadas entrantes en la pantalla de bloqueo y realizar llamadas desde la lista de contactos.";
+"BACKGROUND" = "PROCESO DE FONDO";
+"Enable to support incoming calls while in background (only be used with UDP server or malconfigured TCP server). Enabling this option will significantly decrease battery life!" = "Habilita para permitir llamadas mientras esta en fondo (solo puede ser usado con el servidor UDP o el servidor TCP mal configurado). Habilitando este opción reduce drásticamente la duración de la batería!";
+
+
+"AUDIO OPTIONS" = "OPCIONES DE AUDIO";
+"VIDEO OPTIONS" = "OPCIONES DE VIDEO";
+"CLIENT-SIDE CALL FORWARDING" = "DESVÍO DE LLAMADAS";
+"DTMF TYPE" = "TIPO DE DTMF";
+"Sign In" = "Sign In";
+"SRTP" = "SRTP";
+"None" = "Ninguna";
+"Prefer" = "Preferir";
+"Force" = "Forzar";
+
+
+/*Codecs View*/
+"Audio Codecs" = "Codecs de audio";
+"Video Codecs" = "Codecs de vídeo";
+
+"OK" = "OK";
+
+
+/*Dial View*/
+"BlueTooth" = "Bluetooth";
+"iPhone" = "iPhone";
+"Speaker" = "Altavoz";
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <serverNode serverName='iptel.org'
+      serverIP='sip.iptel.org'
+      serverPort='5060'
+      userdomain='sip.iptel.org'
+      singup='http://www.iptel.org/toboggan/register'
+      favicon='http://www.iptel.org/favicon.ico' >
+  </serverNode>
+
+  <serverNode serverName='opensips.org'
+  serverIP='opensips.org'
+  serverPort='5060'
+  userdomain='opensips.org'
+  singup='http://www.opensips.org/Login/Signup'
+  favicon='http://www.opensips.org/favicon.png' >
+  </serverNode>
+</root>

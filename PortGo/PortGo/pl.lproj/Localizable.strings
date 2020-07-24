@@ -1,0 +1,153 @@
+/*
+ Localizable.strings
+ PortGo
+ 
+ Copyright (c) 2017 PortSIP Solutions, Inc. All rights reserved.
+ */
+/* Localized versions of Info.plist keys */
+
+
+/* Login view */
+"Accounts" = "Użytkownicy";
+"UserName" = "Login";
+"Password" = "Hasło";
+"SIP Server" = "SIP Serwer";
+"Server Port" = "Server Port";
+"Names" = "Nazwy";
+"Transport" = "Transport";
+"Remember me" = "Zapamiętaj mnie";
+"Auto Login" = "Automatyczne logowanie";
+"Show Advanced Options" = "Wyświetl dodatkowe ustawienia";
+"Hide Advanced Options" = "Zamknij dodatkowe ustawienia";
+"Enable Logging" = "Włącz zapisywanie historii logowania";
+"About" = "O nas";
+"Display Name" = "Nazwa";
+"Auth Name" = "Login do autoryzacji";
+"User Domain" = "Domena";
+"Signaling Transport" = "SIGTRAN";
+"Enable STUN" = "Włącz STUN";
+"Server" = "Serwer";
+"Port" = "Port";
+"Version" = "Wersja";
+"Signing in" = "Trwa logowanie";
+"NetWork error" = "Brak sieci";
+"Initial SDK error" = "Błąd SDK";
+"Account info error" = "Błąd wprowadzonych danych";
+"Unable to login" = "Logowanie nie powiodło się";
+"Forgot Password" = "Nieprawidłowe hasło";
+
+
+/*Contacts View*/
+"Contacts" = "Kontakty";
+"Favorites" = "Wyróżnione";
+
+/*Recents View*/
+"Recents" = "Ostatnie";
+"All Calls" = "Wszystkie";
+"Missed Calls" = "Nieodebrane";
+"Audio" = "Audio";
+"Video"="Wideo";
+"Unknown" = "Nieznany";
+"Clear All Entries" = "Usuń wszystkie odebrane";
+"Clear Missed Entries" = "Usuń wszystkie nieodebrane";
+"Cancel" = "Anuluj";
+"Create New Contact" = "Utwórz nowy kontakt";
+"Add to Existing Contact" = "Dodaj do istniejącego kontaktu";
+"Send a text message" = "Wyślij wiadomość";
+"Make Audio call" = "Wykonaj połączenie";
+"Make Video call" = "Wykonaj Wideo połączenie";
+
+/* Numpad view */
+"Numpad" = "Klawiatura";
+"HangUp Call" = "Zakończ połączenie";
+"Trying" = "Nawiązuję połączenie";
+"Ringing" = "Dzwonię";
+"Remote hold" = "Remote hold";
+"Remote unHold" = "Remote unHold";
+"Tap to Return Call" = "Wznów rozmowę";
+"offline" = "offline";
+"Remote Hangup" = "Remote Hangup";
+"Call ending" = "Połączenie zakończono";
+"Transfer" = "Przekaż";
+"Conference" = "Konferencja";
+
+/*Notification Center*/
+"Call from" = "Zadzwoń do";
+"Video call from" = "Zadzwoń z wideo do";
+"Call closed" = "Zakończ połączenie";
+"Missed call" = "Nieodebrane połączenie";
+
+
+/*Messages View*/
+"Messages" = "Wiadomości";
+"Send" = "Wyślij";
+" Copy " = "Kopiuj";
+" Delete" = "Usuń";
+
+/*Webpage View*/
+"Home" = "Strona głowna";
+
+/*Settings View*/
+"Settings" = "Ustawienia";
+"Account" = "Użytkownicy";
+"Preferences" = "Preferowane";
+"Codecs" = "Kodeki";
+"Premium Features" = "Funkcję premium";
+
+
+
+/*Accounts View*/
+"User Name" = "Login";
+"Sign Out" = "Wyloguj się";
+
+
+/*Preferences View*/
+"Allow VoIP Calls" = "Zezwól na połączenia VoIP";
+"Force Background" = "Korzystać z trybu uśpienia (w tle)";
+"Integrated calling" = "Zintegrowane połączenie";
+"RTP Port Start" = "Włącz RTP Port";
+"Acoustic Echo Cancellation" = "Eliminacja echa";
+"Voice Activity Detection" = "Voice Activity Detection (VAD)";
+"Noise Reduction" = "Redukcja szumów";
+"Comfort Noise Generator" = "Generator szumów";
+"Automatic Gain Control" = "Automatyczna regulacja wzmocnienia";
+"Video Resolution" = "Rozdzielczość wideo";
+"Video Frame Rate" = "Wideo FrameRate";
+"Video Bit Rate" = "Wideo BitRate";
+"Video NACK feature(RFC4585)" = "Wideo NACK feature(RFC4585)";
+"Forward Incoming Calls" = "Przekierowanie połączeń przychodzących";
+"Send DTMF Using" = "Wyślij wykorzystywany DTMF";
+"Play DTMF Tones Back To Me" = "Odtwórz DTMF sygnały Back To Me";
+"Number:" = "Numer:";
+
+"MOBILE DATA NETWORK" = "Sieć komórkowa";
+"Enable to allow application to use your mobile data plan when WIFI is not available." = "Włącz możliwość korzystania z sieci komórkowej, kiedy WIFI nie jest dostępne";
+
+"CALLS" = "POLĄCZENIA";
+"Receive incoming calls on your lock screen and make calls from your device's contact list." = "Odbieranie połączeń przy zablokowanym ekranie oraz wykonywanie połączeń z listy kontaktów na smartfonie.";
+"BACKGROUND" = "Tryb uśpienia (w tle)";
+"Enable to support incoming calls while in background (only be used with UDP server or malconfigured TCP server). Enabling this option will significantly decrease battery life!" = "Możliwość włączenia opcji odbierania połączeń w trybie uśpienia (tylko z wybranym UDP serwerem lub malconfigured TCP serwerem). Uwaga, włączenie tej opcji powoduje rozładowanie akumulatora!";
+
+
+"AUDIO OPTIONS" = "OPCJE AUDIO";
+"VIDEO OPTIONS" = "OPCJE WIDEO";
+"CLIENT-SIDE CALL FORWARDING" = "Przekierowanie połączeń CLIENT-SIDE ";
+"DTMF TYPE" = "DTMF TYP";
+"Sign In" = "Logowanie";
+"SRTP" = "SRTP";
+"None" = "Żaden";
+"Prefer" = "Preferowany";
+"Force" = "Obowiązkowy";
+
+
+/*Codecs View*/
+"Audio Codecs" = "Audio Kodeki";
+"Video Codecs" = "Wideo Kodeki";
+
+"OK" = "OK";
+
+
+/*Dial View*/
+"BlueTooth" = "BlueTooth";
+"iPhone" = "iPhone";
+"Speaker" = "Głośnik";

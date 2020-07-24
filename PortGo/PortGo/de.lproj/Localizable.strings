@@ -1,0 +1,403 @@
+/*
+ Localizable.strings
+ PortGo
+ 
+ Copyright (c) 2017 PortSIP Solutions, Inc. All rights reserved.
+ */"Password" = "Passwort";
+"UserName" = "Benutzername";
+
+/* Login view */
+"Accounts" = "Konten";
+"SIP Server" = "Domainname";
+"Server Port" = "Server-Port";
+"Names" = "Namen";
+"Transport" = "TRANSPORT";
+"Remember me" = "Merken";
+"Name MaxLen" = "Die maximale Länge beträgt %d";
+"Auto Login" = "Automatisches Login";
+"Show Advanced Options" = "Erweiterte Optionen anzeigen";
+"Hide Advanced Options" = "Erweiterte Optionen ausblenden";
+"Enable Logging" = "Protokollierung aktivieren";
+"About" = "Über";
+"Display Name" = "Anzeigename";
+"Auth Name" = "Authentifizierungsname";
+"User Domain" = "Domainname";
+"Signaling Transport" = "Transport signalisieren";
+"Enable STUN" = "STUN verwenden";
+"Port" = "Port";
+"Server" = "Server";
+"Version" = "Version";
+"Signing in" = "Einloggen";
+"NetWork error" = "Netzwerkfehler";
+"Initial SDK error" = "Fehler beim Initialisieren des SDK";
+"Account info error" = "Kontoinformationsfehler";
+"Unable to login" = "Einloggen nicht möglich";
+"Forgot Password" = "Passwort vergessen";
+"ACCOUNT ADDITIONAL" ="ERWEITERTE KONTO-EINSTELLUNGEN";
+"Outbound Proxy" ="Outbound Proxy";
+
+"[display is the default]" ="[Standard=Anzeige]";
+"[username is the default]" ="[Standardwert=Benutzername]";
+"[domain is the default]" = "[Standardwert=Domain]";
+
+"STUN" = "STUN";
+
+"IM AND PRESENCE" = "NACHRICHTEN UND ANWESENHEIT";
+"Presence Agent" ="Anwesenheitsdienst";
+"Publish Refresh" = "Statusaktualisierung";
+"Subscribe Refresh" = "Anmeldenachricht";
+
+"TLS CERT MANAGEMENT" = "TLS-MANAGEMENT";
+"Verify TLS Cert" = "TLS-Zertifikat überprüfen";
+
+"invalide qr code" = "Fehlerhafter QR-Code";
+
+
+// AdvanceOptionsView
+"Advance" = "Erweitert";
+"Outbound" = "Outbound";
+
+/* Contacts View */
+"Contacts" = "Kontakte";
+"Friends" = "Freunde";
+"Favorites" = "Favoriten";
+"Select All" = "Alle auswählen";
+"Select" = "Auswählen";
+"Message" = "Nachricht";
+"Search Contact" = "Kontakt suchen";
+"Edit Contact" = "Kontakt bearbeiten";
+
+/* ContactDetail View */
+"Call Detail" = "Anrufdetails";
+"edit" = "bearbeiten";
+
+"Contact Detail" = "Kontaktdetails";
+"Unknown" = "Unbekannt";
+"Add to Favorite" = "Zu Favoriten hinzufügen";
+"Remove from Favorite" = "Aus Favoriten entfernen";
+"Delete Avatar" = "Avatar löschen";
+"Photo Liberary" = "Fotoalbum";
+
+
+"Camera" = "Kamera";
+"Call Out"  = "Ausgehender Anruf";
+"Call In" = "Eingehender Anruf";
+"Call Failed" = "Anruf fehlgeschlagen";
+"Unconnect" = "Trennen";
+
+
+// AddorEditView
+
+"IM" = "IM";
+
+"FirstName" = "Vorname";
+"LastName" = "Nachname";
+"Company" = "Firma";
+"Department" = "Abteilung";
+"JobTitle" = "Beruf";
+"Enter FirstName" = "Vorname eingeben";
+"Enter LastName" = "Nachname eingeben";
+"Enter CompanyName" = "Firmenname eingeben";
+"Enter Department" = "Abteilung eingeben";
+"Enter Jobtitle" = "Beruf eingeben";
+
+"Save To" = "Speichern nach";
+"System AddressBook" = "System-Adressbuch";
+"Sip AddressBook" = "SIP-Adressbuch";
+
+"Add Contact" = "Kontakt hinzufügen";
+"Save" = "Speichern";
+"Done" = "Fertig";
+"Create New Label" = "Neues Kennzeichen erstellen";
+"Add PhoneNumber" = "Telefonnummer hinzufügen";
+"Add VoIP Number" = "VoIP-Nummer hinzufügen";
+"IM Address" = "IM-Adresse";
+"No IM" = "Keine IM";
+"VoIP Call" = "VoIP-Anruf";
+"Notice!" = "Hinweis!";
+"Please enter one of LastName and FirtName at least" = "Bitte mindestens einen Nach- und Vorname eingeben";
+"Know That" = "Gewusst, dass";
+
+"Delete Contact" ="Kontakt löschen";
+
+"Select  IM Address" = "IM-Adresse wählen";
+"tempstr" = "Das gewählte IM-Konto wird für Instant Messaging und Online-Nachrichtenabonnement verwendet. Es kann durch Bearbeiten der Kontaktdetails geändert werden.";
+
+
+
+/* Recents View */
+"Recents" = "Anrufe";
+"All Calls" = "ALLE";
+"Missed Calls" = "VERPASSTE";
+"Audio" = "Audio";
+"Video"="Video";
+"Clear All Entries" = "Alle Einträge entfernen";
+"Clear Missed Entries" = "Alle verpassten Anrufe entfernen";
+"Cancel" = "Abbrechen";
+"Create New Contact" = "Neuen Kontakt erstellen";
+"Add to Existing Contact" = "Zu vorhandenem Kontakt hinzufügen";
+"Send a text message" = "Textnachricht senden";
+"Make Audio call" = "Audio-Anruf starten";
+"Make Video call" = "Video-Anruf starten";
+
+"Call History" = "Anruf-Verlauf";
+
+"Forward" = "verbinden";
+"DownLoad" = "herunterladen";
+/* Numpad view */
+"Numpad" = "Tastenfeld";
+"HangUp Call" = "Auflegen";
+"Trying" = "Versuche";
+"Ringing" = "Klingeln";
+"Remote hold" = "Gespräch halten";
+"Remote unHold" = "Gespräch fortsetzen";
+"Tap to Return Call" = "Zum Zurückgeben anklicken";
+"offline" = "Offline";
+"online" = "Online";
+"Remote Hangup" = "Gegenüber auflegen";
+"Call ending" = "Anruf beendet";
+"Transfer" = "Anrufweiterleitung";
+"Conference" = "Konferenz";
+
+"You have no Voice Mail number!" = "Sie haben keine Mailbox-Nummer!";
+
+
+/* Notification Center */
+"Call from" = "Anruf von";
+"Video call from" = "Video-Anruf von";
+"Call closed" = "Anruf beendet";
+"Missed call" = "Verpasster Anruf";
+"Message_Tips"="Sie haben eine Nachricht erhalten.";
+
+"File_Message"="Dateiübertragung";
+"Audio_Message"="Audio-Nachricht";
+"Video_Message"="Video-Nachricht";
+"Text_Message"="Text-Nachricht";
+"Image_Message"="Bild-Nachricht";
+"Unknow_Message"= "Nachricht";
+
+/* Messages View */
+"Messages" = "Nachrichten";
+"Send" = "Senden";
+" Copy " = " Kopie ";
+" Delete" = "Löschen";
+
+"Video Call" = "Video-Anruf";
+"Audio Call" = "Audio-Anruf";
+
+"File Transfer" = "Dateiübertragung";
+
+"Voice Message Too Short" = "Mailboxnachricht zu kurz!";
+
+"All read" = "Alles gelesen";
+"Enter message" = "Nachricht eingeben";
+
+"Decline" ="Ablehnen";
+"Accept" = "Akzeptieren";
+"New Friends" = "Neue Freunde";
+
+"Accepted" = "Akzeptiert";
+"Refused" = "Abgewiesen";
+"New Message" = "Neue Nachricht";
+
+
+
+/* Webpage View */
+"Home" = "Zuhause";
+
+/* Settings View */
+"Settings" = "Einstellungen";
+"Account" = "Konto";
+"Preferences" = "Einstellungen";
+"Codecs" = "Codecs";
+"Premium Features" = "Premium-Funktionen";
+
+"Online" ="Online";
+"Away" ="Abwesend";
+"Busy" ="Beschäftigt";
+"Do not disturb" ="Nicht stören";
+"Offline" ="Offline";
+"All"="Alle";
+
+// Settings  Account
+
+"Display as" ="Anzeigen als";
+
+"Do Not Disturb" = "Nicht stören";
+"Dial Plan" = "Wählpläne";
+"Voice Mail" = "Voicemail";
+
+
+"Call Forward" = "Anrufweiterleitung";
+"Disable forward" = "Anrufweiterleitung deaktivieren";
+"Forward all" = "Immer weiterleiten";
+"Forward when busy" = "Weiterleiten bei besetzt";
+"Forward when no answer" = "Weiterleiten, wenn keine Antwort";
+"Forward after (seconds)" = " Weiterleiten, wenn keine Antwort nach (Sekunden)";
+
+"Forward to" = "Ziel";
+
+"seconds" = "3 s";
+"no set call for" = "Die Anrufweiterleitung wird deaktiviert, wenn kein Ziel angegeben wird.";
+
+
+"Add" = "Hinzufügen";
+"Name is required" = "Name ist erforderlich";
+"Example" = "Beispiel";
+
+
+"New Dial Plan" = "Neuer Wählplan";
+"Name"="Name";
+"Match Prefix"="Übereinstimmende Vorwahl";
+"Remove Prefix"="Zu entfernende Vorwahl";
+"Prepend Prefix"="Hinzuzufügende Vorwahl";
+
+
+"SIP MISCELLANEOUS" ="ERWEITERTE SIP-EINSTELLUNGEN";
+"Enable Early Media" = "Early Media aktivieren";
+"Enable PRACK" ="PRACK aktivieren";
+"Enable IMS" ="IMS aktivieren";
+"Passive Session Timer" ="Passive Session Timer (RFC4028)";
+
+"CALL RECORDING" ="ANRUFAUFZEICHNUNG";
+"Enalbe Call Record" ="Anrufaufzeichnung aktivieren";
+
+"All recording files" = "Alle Aufnahmedateien";
+
+
+
+/* Accounts View */
+"User Name" = "Benutzername";
+"Sign Out" = "Ausloggen";
+
+
+
+/* Preferences View */
+"Allow VoIP Calls" = "VoIP-Anrufe erlauben";
+"Integrated calling" = "Integrierter Anruf";
+"Force Background" = "Hintergrund erzwingen";
+"RTP Port Start" = "Start-RTP-Port";
+"Acoustic Echo Cancellation" = "Echokompensation";
+"Voice Activity Detection" = "Sprechpausenerkennung (VAD)";
+"Noise Reduction" = "Rauschreduzierung";
+"Comfort Noise Generator" = "Komfortrauschen";
+"Automatic Gain Control" = "Automatische Lautstärkeregelung";
+"Video Resolution" = "Video-Auflösung";
+"Video Frame Rate" = "Bildwiederholfrequenz";
+"Video Bit Rate" = "Video-Bitrate";
+"Video NACK feature(RFC4585)" = "Video NACK feature(RFC4585)";
+"Forward Incoming Calls" = "Eingehende Anrufe weiterleiten";
+"Send DTMF Using" = "DTMF-Töne senden als";
+"Play DTMF Tones Back To Me" = "DTMF-Töne mithören";
+"Number:" = "Nummer:";
+
+"MOBILE DATA NETWORK" = "MOBILE DATENVERBINDUNG";
+"Enable to allow application to use your mobile data plan when WIFI is not available." = "Wenn aktiviert, kann die App auch ohne WLAN-Verbindung mit einem mobilen Datentarif verwendet werden";
+
+"CALLS" = "ANRUFE";
+"Receive incoming calls on your lock screen and make calls from your device's contact list." = "Eingehende Anrufe vom Sperrbildschirm aus annehmen und Anrufe von der Geräte-Kontaktliste starten.";
+
+"BACKGROUND" = "HINTERGRUND";
+"Enable to support incoming calls while in background. Enabling this option will significantly decrease battery life!" = "Aktivieren, um Anrufe im Hintergrund zu verarbeiten. Diese Option reduziert signifikant die Akkulaufzeit!";
+
+
+"AUDIO OPTIONS" = "AUDIO-OPTIONEN";
+"VIDEO OPTIONS" = "VIDEO-OPTIONEN";
+"CLIENT-SIDE CALL FORWARDING" = "CLIENTSEITIGE ANRUFWEITERLEITUNG";
+"DTMF TYPE" = "DTMF-Typ";
+"Sign In" = "Einloggen";
+"SRTP" = "SRTP";
+"None" = "Nie";
+"Prefer" = "Bevorzugen";
+"Force" = "Erzwingen";
+
+
+/* Codecs View */
+"Audio Codecs" = "Audio-Codecs";
+"Video Codecs" = "Video-Codecs";
+
+"OK" = "Okay";
+
+
+/* Dial View */
+"BlueTooth" = "Bluetooth";
+"iPhone" = "iPhone";
+"Speaker" = "Lautsprecher";
+
+// other
+"Program problems there" = "Programmprobleme";
+"Crash information" ="Absturz-Information";
+
+"Tips" = "Tipps";
+"Appreciated with 5-star comment"  = "Mit einer 5-Sterne-Bewertung würdigen";
+"Comment us" = "Kommentar senden";
+"Comment later" = "Später kommentieren";
+
+"Premium Features Introduction2" = "Wenn Sie bereits eine Premium-Funktion erworben haben und diese nicht als installiert erscheint, drücken Sie die Taste oben, um mit dem App-Store zu synchronisieren";
+
+
+"Premium Features Introduction1" = "H.264 Video-Codec mit hoher Qualität und geringer Bandbreite für beste HD-Audioqualität bei ungünstigen Netzwerkverbindungen mit AMR-WB.\nVorbehaltlich der Unterstützung durch den VoIP-Anbieter bzw. den gegenüberliegenden Teilnehmer.";
+
+"Available as a premium feature" = "Als Premium-Funktion verfügbar";
+
+"Disturb Message" = "Wenn \"Nicht stören\" eingeschaltet ist, werden keine Anrufe und Nachrichten empfangen!";
+
+"Sync Premium Features" = "Premium-Funktionen synchronisieren";
+
+"Status" = "Status";
+
+"You receive a new call From"= "Neuer Anruf von";
+"You receive a new message From" = "Neue Nachricht von";
+
+"Do not allow to call yourself" = "Der Anruf kann nicht gestartet werden, da es sich um das Konto handelt, das Sie gerade abonnieren.";
+"Calling" = "Der Benutzer, den Sie anrufen möchten, befindet sich bereits im Gespräch.";
+
+"Unable to logout" = "Ausloggen auf Grund des laufenden Anrufes nicht möglich.";
+
+
+
+"Setting up chat background" = "Chat-Hintergrund einstellen";
+"Select from Photo" = "Foto auswählen";
+"Take a picture" = "Foto aufnehmen";
+"Delete chat background" = "Chat-Hintergrund entfernen";
+
+
+
+// scanQR
+
+"Back" ="Zurück";
+"ScanQR" = "QR-Code scannen";
+"MyQR" = "Mein QR-Code";
+"You can start scanning" = "QR-/Barcode in die Box legen und automatisch scannen";
+"Photo" = "Foto";
+
+"Scan result"  = "Scan-Ergebnis";
+"Add a Contact" = "Kontakt hinzufügen";
+"Add friends" = "Freunde hinzufügen";
+
+
+
+"Hold to Talk" = "Halten und sprechen";
+
+"Release to send" =  "Zum Senden loslassen";
+
+"Slide up to cancel" =  "Zum Abbrechen nach oben wischen";
+"Album" = "Album";
+
+
+
+"Release to cancel" =  "Zum Abbrechen loslassen";
+
+// UC
+
+"imageimage_imageimage" ="[Bild]";
+"VoiceMessage_VoiceMessage" = "[VoiceNachricht]";
+"shortvideo_shortvideo" ="[KurzVideo]";
+"UnknowFormat_UnknowFormat" = "[UnbekanntesFormat]";
+"FileMessage_FileMessage" = "[Datei]";
+
+"SendIn_SendIn" = "Abschicken...";
+
+"Photo_tip" =  "Zur Fotoaufnahme anklicken und halten für eine Videoaufnahme";
+"Save the picture" = "Bild speichern";
+

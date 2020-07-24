@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Video Resolution</key>
+	<array>
+		<string>QCIF  &lt;176*144&gt;</string>
+		<string>CIF    &lt;352*288&gt;</string>
+		<string>720P &lt;1280*720&gt;</string>
+	</array>
+	<key>Video Frame Rate</key>
+	<array>
+		<string>5 fps</string>
+		<string>10 fps</string>
+		<string>15 fps</string>
+		<string>20 fps</string>
+		<string>30 fps</string>
+	</array>
+	<key>Video Bit Rate</key>
+	<array>
+		<string>128 Kbps</string>
+		<string>256 Kbps</string>
+		<string>512 Kbps</string>
+		<string>1024 Kbps</string>
+		<string>2048 Kbps</string>
+	</array>
+	<key>SRTP</key>
+	<array>
+		<string>None</string>
+		<string>Force</string>
+		<string>Prefer</string>
+	</array>
+	<key>DTMF TYPE</key>
+	<array>
+		<string>RFC 2833</string>
+		<string>SIP INFO</string>
+	</array>
+	<key>Send DTMF Using</key>
+	<array>
+		<string>RFC 2833</string>
+		<string>SIP INFO</string>
+	</array>
+</dict>
+</plist>
